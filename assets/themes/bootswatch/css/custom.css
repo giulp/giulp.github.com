@@ -1,5 +1,7 @@
-@import url(http://fonts.googleapis.com/css?family=Nothing+You+Could+Do);
-*{font-family: 'Nothing You Could Do', cursive;}
+@import url(http://fonts.googleapis.com/css?family=Glass+Antiqua);
+*{font-family: 'Glass Antiqua', cursive;}
+@import url(http://fonts.googleapis.com/css?family=Quattrocento);
+div.article p{font-family: 'Quattrocento', serif;}
 @media (max-width: 979px) {
   .nav-collapse.collapse {
     height: auto !important;
@@ -874,6 +876,7 @@ select:focus:required:invalid:focus {
   box-shadow: inset 0 1px 0 rgba(0,0,0,.1), 0 -1px 10px rgba(0,0,0,.1);
 }
 .navbar .nav > li > a {
+  font-size: 180%;
   float: none;
   padding: 10px 15px 10px;
   color: #998f6d;
@@ -2016,4 +2019,9 @@ a.badge:hover {
 }
 .navbar-fixed-top .navbar-inner a, .navbar-static-top .navbar-inner a, .navbar-fixed-top .navbar-inner li a, .navbar-static-top .navbar-inner li a {
     color: peru;
+    font-size: 180%;
+}
+.nav li a.active{
+    background: none repeat scroll 0 0 gold;
+    color: black;
 }
