@@ -354,7 +354,7 @@ Resume.controller("resumeController", function($scope, $http) {
         images: images
     };
     var pdf = pdfMake.createPdf(docDefinition);
-    pdf.download();
+    pdf.download('Giulio_Picasso_RESUME.pdf');
     // pdf.open();
   };
 });
