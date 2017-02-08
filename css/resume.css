@@ -10,6 +10,10 @@
 .person,.h1,.h3,.h4 {
     font-family: 'Exo', sans-serif;
 }
+.h1, h1
+{
+    font-size: 30px;
+}
 .section, #menu, #search, .personal.link {
     border: 2px solid #2f2a24;
 }
@@ -110,7 +114,11 @@ div {
 .personal.link a, .personal.link a:hover, .personal.link a:active, .personal.link a:visited {
     background-color: white;
     color:black;
-    font-size:110%;
+    font-size:100%;
+}
+.personal.link a:hover
+{
+    border-color: #333333;
 }
 .person img {
     border-radius: 0.4em;
@@ -126,8 +134,8 @@ div {
     background-color: #F9F2C7;
     border: 1px solid #CEAC6B;
     margin-left: 0.5em;
-    margin-right: 0.5em;
-    padding: 0.25em 0.65em;
+    margin-right: 0;
+    padding: 0.2em 0.6em;
     border-radius: 0.3em;
 }
 #menu
