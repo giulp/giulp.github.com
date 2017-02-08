@@ -1,46 +1,19 @@
-# Jekyll-Bootstrap
-
-The quickest way to start and publish your Jekyll powered blog. 100% compatible with GitHub pages
-
-## Usage
-
-For all usage and documentation please see: <http://jekyllbootstrap.com>
-
-## Version
-
-0.3.0 - stable and versioned using [semantic versioning](http://semver.org/).
-
-**NOTE:** 0.3.0 introduces a new theme which is not backwards compatible in the sense it won't _look_ like the old version.
-However, the actual API has not changed at all.
-You might want to run 0.3.0 in a branch to make sure you are ok with the theme design changes.
-
-## Contributing 
-
-This repository tracks 2 projects:
-
-- **Jekyll-Bootstrap Framework.**  
-  The framework for which users should clone and build their blog on top of is available in the master branch.
+# ng-Resume
+An interactive, mobile-friendly resume app in AngularJS
   
-  To contribute to the framework please make sure to checkout your branch based on `jb-development`!!
-  This is very important as it allows me to accept your pull request without having to publish a public version release.
+##What is ng-Resume?
+`ng-Resume` is a simple AngularJS app that renders JSON content into a a responsive web page formatted like a resume/CV. It is lightweight and can be quickly changed to meet your needs. It also provides a quick search function that allows visitors to conveniently browse through the resume to find relevant details.  
   
-  Small, atomic Features, bugs, etc.   
-  Use the `jb-development` branch but note it will likely change fast as pull requests are accepted.   
-  Please rebase as often as possible when working.   
-  Work on small, atomic features/bugs to avoid upstream commits affecting/breaking your development work.
+##Usage
+For quick set-up, the only file you need to change is `resume.json`. The file provided illustrates the structure of the `JSON` object in reasonable detail.  
+For advanced setup, you can modify `resume.css` to change the appearance of the web page. You can also modify directives in `resume.html` to decide how and which content is displayed. In addition, rearranging `section` class `divs` will reorder different parts of the resume.  
+**You can see the app live in action [here](http://hazrmard.github.io/ng-Resume).**  
   
-  For Big Features or major API extensions/edits:   
-  This is the one case where I'll accept pull-requests based off the master branch.
-  This allows you to work in isolation but it means I'll have to manually merge your work into the next public release.
-  Translation : it might take a bit longer so please be patient! (but sincerely thank you).
- 
-- **Jekyll-Bootstrap Documentation Website.**    
-  The documentation website at <http://jekyllbootstrap.com> is maintained in the gh-pages branch.
-  Please fork and contribute documentation additions to this branch only.
-
-The master and gh-pages branch do not share the same ancestry. Please treat them as completely separate git repositories!
-
-
-## License
-
-[MIT](http://opensource.org/licenses/MIT)
+##Testing locally
+Since the app uses http requests to get the `json` file, you'll need to set up a local server to view and test the app locally. You can set up a simple server like so:  
+1. Install Python  
+2. Browse to location of cloned repository  
+3. Type in command line:  `python -m SimpleHTTPServer`  
+4. Open browser to `http://localhost:8000`  
+  
+If the computer and a smartphone are connected to the same wireless network, you can view the app on your mobile phone by going to `http://<YOUR_IP_ADDRESS>:8000`. On Windows you can look up your ip address by using `ipconfig` in command line.
