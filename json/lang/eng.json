@@ -1,0 +1,448 @@
+{
+  "general": {
+    "pdf_title": "Giulio Picasso (resume)",
+    "search_resume":  "Search resume",
+    "menu_coaching":  " COACHING",
+    "menu_dev":     " DEV",
+    "h1_education":   " Education",
+    "main_dev":     " Experience",
+    "section_links":  "Link(s):",
+    "section_tech":   "Technology:",
+    "h1_projects":    " Projects",
+    "main_coaching":  " Coaching and mentoring",
+    "section_details":  "Details",
+    "section_skill":  "Skills",
+    "h1_extra":     " Extracurriculars",
+    "h1_honor":     " Honors"
+  },
+  "resume": {
+    "personal_info": {
+      "name":     "Giulio Picasso",
+      "email":    "giuliopicasso@giulp.com",
+      "phone":    "+39 346 2422558",
+      "links":  [
+      {
+        "title":    "vizualize.me",
+        "url":      "http://vizualize.me/GiulP"
+      },
+      {
+        "title":    "linkedin",
+        "url":      "https://it.linkedin.com/in/giuliopicasso"
+      },
+      {
+        "title":    "stackoverflow",
+        "url":      "http://stackoverflow.com/users/3739756/giulp"
+      }
+      ]
+    },
+    "experience":     {
+      "dev": [
+        {
+          "title":        "Web and integration specialist",
+          "workplace":    "F451 s.r.l. Trieste",
+          "time":         "05/2015 - now",
+          "achievements": [
+            "2-way channel manager for desktop hotel PMS.",
+            "Integration with GetYourBill automated invoices management system.",
+            "Server administration.",
+            "Technical assistance.",
+            "[ Microservices cloud architecture. ]",
+            "[ Hotel PMS (Mobile version - android/ios). ]"
+          ],
+          "technologies": ["java", "swing","postgresql", "git",  "XML", "json", "php", "wordpress", "linux", "windows", "osx", "vmware", "[ docker ]", "[ nodejs ]", "[ nativescript ]", "[ angularjs ]"],
+          "links":        [{
+            "title":    "IDA",
+            "url":      "https://www.idaitalia.com"
+          }],
+          "tags":         ["channel manager", "pms", "hotel", "integration", "REST"]
+        },
+        {
+          "title":        "ICT specialist",
+          "workplace":    "Uelcom s.r.l. c/o Area Science Park Trieste",
+          "time":         "06/2015 - now",
+          "achievements": [
+            "Ruby on Rails mentoring.",
+            "Automated invoicing for loyalty marketing system management.",
+            "Loyalty marketing system development.",
+            "Technical consulting.",
+            "[ Consumer app ]"
+          ],
+          "technologies": ["AWS", "linux", "osx", "Apache", "git", "Ruby on Rails", "MYSQL", "REST", "android", "QR codes", "[ nativescript ]"],
+          "links":        [{
+            "title":    "Uelcom",
+            "url":      "https://uelcom.me"
+          }],
+          "tags":         ["loyalty marketing", "ruby on rails"]
+        },
+        {
+          "title":        "ICT consultant",
+          "workplace":    "Pianeta Zero s.r.l.",
+          "time":         "04/2014",
+          "achievements": ["CrushFTP server setup and configuration."],
+          "technologies": ["linux", "DigitalOcean"],
+          "links":        [],
+          "tags":         []
+        },
+        {
+          "title":        "Web specialist and lead developer",
+          "workplace":    "IVSDATA s.r.l. Treviso",
+          "time":         "2013 - 2014",
+          "achievements": [
+            "Server infrastructure setup and administration.",
+            "Version control (git) setup and administration.",
+            "SAML authentication integration.",
+            "In and offshore development team management.",
+            "Web app infrastructure for real estate evaluation.",
+            "Technical consulting."
+          ],
+          "technologies": ["linux","Apache", "windows server 2008", "osx", "git", "Ruby on Rails", "postgresql", "javascript"],
+          "links":        [{
+            "title":    "IVSDATA",
+            "url":      "http://www.ivsdata.it/"
+          }],
+          "tags":         ["integration", "SAML", "ruby on rails","javascript", "zurb foundation"]
+        },
+        {
+          "title":        "ICT specialist and lead developer",
+          "workplace":    "Barcheyacht s.r.l. c/o InnovationFactory - Area Science Park Trieste",
+          "time":         "2012 - 2014",
+          "achievements": [
+            "Server infrastructure setup and administration.",
+            "Version control (git) setup and administration.",
+            "In and offshore development team management.",
+            "XML 2-way web service integration.",
+            "Boat renting/charter web portal.",
+            "Technical consulting."
+          ],
+          "technologies": ["linux","Apache", "osx", "git", "php","MYSQL","javascript", "twitter bootstrap"],
+          "links":        [],
+          "tags":         []
+        },
+        {
+          "title":        "Web/VOIP developer, technical writer",
+          "workplace":    "NewEntity s.r.l. Trieste",
+          "time":         "2009 - 2013",
+          "achievements": [
+            "Geolocalization based marketing framework - development.",
+            "CloudPBX - SAAS VOIP/PBX generator - development. [Timenet s.r.l.]",
+            "CloudPBX - SAAS VOIP/PBX generator - technical writing. [Timenet s.r.l.]",
+            "ecommerce platform - technical writing. [Abilene s.r.l.]",
+            "wine traceability system - technical writing. [ISVEA]",
+            "mobile ready web based awning configurator - development.",
+            "EntityPBX stats visualization - development.",
+            "EntityPBX db optimization."
+          ],
+          "technologies": ["linux","Apache", "windows", "osx", "git", "php","MYSQL","javascript","voip","asterisk"],
+          "links":        [{
+            "title":    "NewEntity",
+            "url":      "http://www.newentity.it/"}],
+            "tags":         []
+          },
+          {
+            "title":        "Freelance ICT consultant",
+            "workplace":    "Trieste",
+            "time":         "2000 - 2009",
+            "technologies": ["html","css", "javascript", "php", "MYSQL", "windows","linux"]
+          }
+      ],
+      "mentoring": [
+        {
+          "title":        "Rails Girls Udine - head coach",
+          "workplace":    "Friuli Innovazione s.r.l. - Udine",
+          "time":         "06/2014",
+          "description":  "Rails girls (Ruby on Rails) coaching team management.",
+          "links":        [{
+            "title":    "Rails Girls",
+            "url":      "http://railsgirls.com/"
+          }]
+        },
+        {
+          "title":        "Wordpress course - teacher",
+          "workplace":    "ARCI - Trieste",
+          "time":         "04 - 05/2013",
+          "description":  "\n",
+          "links":        []
+        },
+        {
+          "title":        "IT courses - teacher",
+          "workplace":    "IAL - FVG",
+          "time":         "2010 - 2012",
+          "details":  [
+          {
+            "title":        "Web comunication",
+            "time":         "10/2012"
+          },
+          {
+            "title":        "MS Word advanced",
+            "time":         "09-10/2012"
+          },
+          {
+            "title":        "Web development",
+            "time":         "05-06/2012"
+          },
+          {
+            "title":        "MS Word",
+            "time":         "01-04/2012"
+          },
+          {
+            "title":        "First steps with a computer",
+            "time":         "11/2011"
+          },
+          {
+            "title":        "Web development basics",
+            "time":         "07-08/2011"
+          },
+          {
+            "title":        "ECDL core full 1,5,6",
+            "time":         "02-03/2011"
+          },
+          {
+            "title":        "Web development basics",
+            "time":         "11/2010 01/2011"
+          },
+          {
+            "title":        "ECDL am4 advanced",
+            "time":         "11-12/2010"
+          },
+          {
+            "title":        "Photo editing with Adobe Photoshop",
+            "time":         "09-11/2010"
+          },
+          {
+            "title":        "ECDL core full 1-7",
+            "time":         "09-11/2010"
+          },
+          {
+            "title":        "ECDL core 1",
+            "time":         "09/2010"
+          },
+          {
+            "title":        "ECDL core 5",
+            "time":         "06/2010"
+          },
+          {
+            "title":        "ECDL core full 1-7",
+            "time":         "05-07/2010"
+          },
+          {
+            "title":        "Verbal comunication basic skills",
+            "time":         "05-07/2009"
+          }
+          ],
+          "links":        [{
+            "title": "IAL",
+            "url":   "http://www.ialweb.it/"
+          }]
+        },
+        {
+          "title":        "Business basics, comunication, IT courses - teacher",
+          "workplace":    "Edilmaster Trieste",
+          "time":         "2006 - 2010",
+          "details":  [
+          {
+            "title":        "Verbal comunication basic skills",
+            "time":         "02/2010 11/2009 06/2009 02/2009 11/2008 01/2008 05/2007"
+          },
+          {
+            "title":        "Small business management basic skills",
+            "time":         "01-02/2010 11-12/2009 05-06/2009 02-03/2009"
+          },
+          {
+            "title":        "Small business management advanced",
+            "time":         "09-12/2009"
+          },
+          {
+            "title":        "Problem solving basics",
+            "time":         "11-12/2009"
+          },
+          {
+            "title":        "Comunication, conflict management and resolution",
+            "time":         "11/2009 06/2009 03/2009"
+          },
+          {
+            "title":        "Computer basics ESF",
+            "time":         "10-11/2009"
+          },
+          {
+            "title":        "MS Project ESF",
+            "time":         "02/2009"
+          },
+          {
+            "title":        "MS Powerpoint ESF",
+            "time":         "02/2009"
+          },
+          {
+            "title":        "Internet basics ESF",
+            "time":         "01-03/2009"
+          },
+          {
+            "title":        "Computer basics (full year mason school program)",
+            "time":         "2007-2008 2006-2007"
+          },
+          {
+            "title":        "Internet basics",
+            "time":         "12/2007 05-06/2007"
+          }
+          ],
+          "links":        [{
+            "title": "Edilmaster",
+            "url":   "http://www.edilmaster.ts.it"
+          }]
+        },
+        {
+          "title":        "IT courses - teacher",
+          "workplace":    "Job & School FVG",
+          "time":         "2008",
+          "details":  [
+          {
+            "title":        "Photo editing with Adobe Photoshop advanced",
+            "time":         "05-07 2008"
+          }
+          ],
+          "links":        [{
+            "title": "Job & School",
+            "url":   "http://www.job-school.com/"
+          }]
+        },
+        {
+          "title":        "IT courses - teacher",
+          "workplace":    "Ecoflora Medellin",
+          "time":         "2000",
+          "details":  [
+          {
+            "title":        "Computer basics",
+            "time":         "01-02 2000"
+          }
+          ],
+          "links":        [{
+            "title": "Ecoflora",
+            "url":   "http://ecoflora.com.co/"
+          }]
+        }
+      ]
+      },
+
+      "projects":   [
+        {
+          "title":        "micros",
+          "time":         "now",
+          "blurb":        "microservices architecture",
+          "description":  "Docker based, node/postgres centered, microservices architecture.",
+          "technologies": ["linux", "AWS", "docker", "nodejs", "postgresql"],
+          "links":        [{
+            "title":    "BitBucket repository",
+            "url":      "https://bitbucket.org/giuliopicasso/micros/src"
+          }],
+          "tags":         ["secret project"]
+        },
+        {
+          "title":        "GATUTAG",
+          "time":         "- ?",
+          "blurb":        "multidimensional location based emotional tagging",
+          "description":  "An app, a game, a protocol. Emotional tagging.",
+          "technologies": ["nativescript", "angularjs", "micros"],
+          "links":        [],
+          "tags":         []
+        }
+      ],
+
+      "skills":   [
+        {
+          "title":        "*",
+          "skills":       ["Oral and written comunication", "coaching", "project management", "teamwork management"]
+        },
+        {
+          "title":        "IT",
+          "skills":       ["software design", "OOP", "design patterns", "software integration", "microservices", "REST api", "XML", "pdf generation", "linux administration", "cloud computing (AWS, heroku, openshift, digitalocean)", "mobile development (android/ios)", "VOIP telephony (asterisk)", "technical writing", "mentoring"]
+        },
+        {
+          "title":        "[ java 6 - 8 ]",
+          "stars":        "3",
+          "skills":       ["swing", "javafx", "jetty", "xmlrpc", "htmlunit", "jfreecharts", "JDBC", "android development", "minor libraries ..."]
+        },
+        {
+          "title":        "[ ruby ]",
+          "stars":        "3",
+          "skills":       ["ruby on rails (many rails gems)", "spree", "jekyll", "rspec", "prawn", "minor libraries ..."]
+        },
+        {
+          "title":        "[ javascript ]",
+          "stars":        "4",
+          "skills":       ["jquery", "angularjs", "underscore", "knockoutjs", "twitter bootstrap", "kendoui", "typescript", "nodejs", "express", "require", "jspdf", "minor libraries ..."]
+        },
+        {
+          "title":        "[ php ]",
+          "stars":        "3",
+          "skills":       ["wordpress", "slim", "laravel", "smarty", "dompdf", "tcpdf", "minor libraries ..."]
+        },
+        {
+          "title":        "[ SQL ]",
+          "stars":        "4",
+          "skills":       ["postgres", "MYSQL", "sqlite"]
+        },
+        {
+          "title":        "[ other ]",
+                "stars":        "4",
+                "skills":       ["html5", "bootstrap", "foundation", "bash", "docker", "asterisk", "python (limited)", "redis (limited)"]
+        },
+        {
+          "title":        "For fun",
+          "skills":       ["algorithmic art", "supercollider", "overtone", "processing", "ableton live", "pure data"]
+        }
+      ],
+
+      "extracurriculars": [
+        {
+          "title":        "Careful father",
+          "time":         "All the time",
+          "description":  [],
+          "details":      "I love my family.",
+          "links":        [],
+          "tags":         []
+        },
+        {
+          "title":        "Olive oil",
+          "time":         "Periodically",
+          "description":  [],
+          "details":      "With my wife we take care of our 140 olive plants terrain, harvest and make supreme oil.",
+          "links":        [],
+          "tags":         []
+        },
+        {
+          "title":        "Trombone playing",
+          "time":         "Occasionally",
+          "description":  [],
+          "details":      "I like to play trombone. Once i dreamt of making a profession of it.",
+          "links":        [],
+          "tags":         []
+        }
+      ],
+      "langs":        [
+        {
+          "title":        "Italian",
+          "stars":        "5"
+        },
+        {
+          "title":        "English",
+          "stars":        "4"
+        },
+        {
+          "title":        "Spanish",
+          "stars":        "3"
+        },
+        {
+          "title":        "German",
+          "stars":        "2"
+        },
+        {
+          "title":        "Slovene",
+          "stars":        "2"
+        },
+        {
+          "title":        "Serbian/Croatian",
+          "stars":        "2"
+        }
+      ],
+      "honors":       []
+  }
+}

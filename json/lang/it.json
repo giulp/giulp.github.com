@@ -1,0 +1,448 @@
+{
+  "general": {
+    "pdf_title": "Giulio Picasso CV",
+    "search_resume":  "Cerca nel cv",
+    "menu_coaching":  " FORMAZIONE",
+    "menu_dev":     " SVILUPPO",
+    "h1_education":   " Education",
+    "main_dev":     " Esperienze",
+    "section_links":  "Link:",
+    "section_tech":   "Tecnologia:",
+    "h1_projects":    " Progetti",
+    "main_coaching":  " Coaching e formazione",
+    "section_details":  "Dettagli",
+    "section_skill":  "Skill",
+    "h1_extra":     " Extracurriculare",
+    "h1_honor":     " Menzioni"
+  },
+  "resume": {
+    "personal_info": {
+      "name":     "Giulio Picasso",
+      "email":    "giuliopicasso@giulp.com",
+      "phone":    "+39 346 2422558",
+      "links":  [
+      {
+        "title":    "vizualize.me",
+        "url":      "http://vizualize.me/GiulP"
+      },
+      {
+        "title":    "linkedin",
+        "url":      "https://it.linkedin.com/in/giuliopicasso"
+      },
+      {
+        "title":    "stackoverflow",
+        "url":      "http://stackoverflow.com/users/3739756/giulp"
+      }
+      ]
+    },
+    "experience":     {
+      "dev": [
+        {
+          "title":        "Specialista Web e integrazione sistemi",
+          "workplace":    "F451 s.r.l. Trieste",
+          "time":         "05/2015 - oggi",
+          "achievements": [
+            "Channel manager a due vie per PMS desktop.",
+            "Integrazione con il sistema di fatturazione automatica GetYourBill.",
+            "Amministrazione server.",
+            "Assistenza tecnica.",
+            "[ Architettura cloud microservices. ]",
+            "[ Hotel PMS (Versione mobile - android/ios). ]"
+          ],
+          "technologies": ["java", "swing","postgresql", "git",  "XML", "json", "php", "wordpress", "linux", "windows", "osx", "vmware", "[ docker ]", "[ nodejs ]", "[ nativescript ]", "[ angularjs ]"],
+          "links":        [{
+            "title":    "IDA",
+            "url":      "https://www.idaitalia.com"
+          }],
+          "tags":         ["channel manager", "pms", "hotel", "integrazione", "REST"]
+        },
+        {
+          "title":        "Specialista ICT",
+          "workplace":    "Uelcom s.r.l. c/o Area Science Park Trieste",
+          "time":         "06/2015 - now",
+          "achievements": [
+            "Formazione Ruby on Rails.",
+            "Sistema di fatturazione integrato.",
+            "Sviluppo sistema di loyalty marketing.",
+            "Consulenza tecnica.",
+            "[ App consumer ]"
+          ],
+          "technologies": ["AWS", "linux", "osx", "Apache", "git", "Ruby on Rails", "MYSQL", "REST", "android", "QR codes", "[ nativescript ]"],
+          "links":        [{
+            "title":    "Uelcom",
+            "url":      "https://uelcom.me"
+          }],
+          "tags":         ["loyalty marketing", "ruby on rails"]
+        },
+        {
+          "title":        "Consulente ICT",
+          "workplace":    "Pianeta Zero s.r.l.",
+          "time":         "04/2014",
+          "achievements": ["Setup e configurazione CrushFTP server."],
+          "technologies": ["linux", "DigitalOcean"],
+          "links":        [],
+          "tags":         []
+        },
+        {
+          "title":        "Specialista Web e lead developer",
+          "workplace":    "IVSDATA s.r.l. Treviso",
+          "time":         "2013 - 2014",
+          "achievements": [
+            "Setup e amministrazione infrastruttura server.",
+            "Setup e amministrazione controllo di versione (git).",
+            "Integrazione con sistema di autenticazione SAML.",
+            "Coordinamento sviluppo interno ed esterno.",
+            "Infrastruttura web per le valutazioni immobiiliari.",
+            "Consulenza tecnica."
+          ],
+          "technologies": ["linux","Apache", "windows server 2008", "osx", "git", "Ruby on Rails", "postgresql", "javascript"],
+          "links":        [{
+            "title":    "IVSDATA",
+            "url":      "http://www.ivsdata.it/"
+          }],
+          "tags":         ["integrazione", "SAML", "ruby on rails","javascript", "zurb foundation"]
+        },
+        {
+          "title":        "Specialista ICT e lead developer.",
+          "workplace":    "Barcheyacht s.r.l. c/o InnovationFactory - Area Science Park Trieste",
+          "time":         "2012 - 2014",
+          "achievements": [
+            "Setup e amministrazione infrastruttura server.",
+            "Setup e amministrazione controllo di versione (git).",
+            "Coordinamento sviluppo interno ed esterno.",
+            "Integrazione con servizio XML a due vie di pubblicazione annunci.",
+            "Realizzazione portale per la vendita e il noleggio di barche a vela.",
+            "Consulenza tecnica."
+          ],
+          "technologies": ["linux","Apache", "osx", "git", "php","MYSQL","javascript", "twitter bootstrap"],
+          "links":        [],
+          "tags":         []
+        },
+        {
+          "title":        "Sviluppo Web/VOIP, redazione documentazione tecnica.",
+          "workplace":    "NewEntity s.r.l. Trieste",
+          "time":         "2009 - 2013",
+          "achievements": [
+            "Sviluppo di un framework di geolocalizzazione per analisi e campagne di marketing.",
+            "Sviluppo CloudPBX - SAAS generatore di PBX VOIP. [Timenet s.r.l.]",
+            "Redazione documentazione tecnica CloudPBX - SAAS generatore di PBX VOIP. [Timenet s.r.l.]",
+            "Redazione documentazione tecnica piattaforma di ecommerce platform. [Abilene s.r.l.]",
+            "Redazione documentazione tecnica  sistema tracciabilità dei vini. [ISVEA]",
+            "Sviluppo configuratore web tende da sole mobile ready.",
+            "Sviluppo visualizzazione statistiche EntityPBX.",
+            "Ottimizzazione database EntityPBX."
+          ],
+          "technologies": ["linux","Apache", "windows", "osx", "git", "php","MYSQL","javascript","voip","asterisk"],
+          "links":        [{
+            "title":    "NewEntity",
+            "url":      "http://www.newentity.it/"}],
+            "tags":         []
+          },
+          {
+            "title":        "Consulente ICT freelance",
+            "workplace":    "Trieste",
+            "time":         "2000 - 2009",
+            "technologies": ["html","css", "javascript", "php", "MYSQL", "windows","linux"]
+          }
+      ],
+      "mentoring": [
+        {
+          "title":        "Rails Girls Udine - head coach",
+          "workplace":    "Friuli Innovazione s.r.l. - Udine",
+          "time":         "06/2014",
+          "description":  "Coordinamento coach Rails girls (Ruby on Rails).",
+          "links":        [{
+            "title":    "Rails Girls",
+            "url":      "http://railsgirls.com/"
+          }]
+        },
+        {
+          "title":        "Docenza corso Wordpress",
+          "workplace":    "ARCI - Trieste",
+          "time":         "04 - 05/2013",
+          "description":  "\n",
+          "links":        []
+        },
+        {
+          "title":        "Docenze corsi IT",
+          "workplace":    "IAL - FVG",
+          "time":         "2010 - 2012",
+          "details":  [
+          {
+            "title":        "Comunicazione Web",
+            "time":         "10/2012"
+          },
+          {
+            "title":        "MS Word avanzato",
+            "time":         "09-10/2012"
+          },
+          {
+            "title":        "Sviluppo Web",
+            "time":         "05-06/2012"
+          },
+          {
+            "title":        "MS Word",
+            "time":         "01-04/2012"
+          },
+          {
+            "title":        "Introduzione all'uso del computer",
+            "time":         "11/2011"
+          },
+          {
+            "title":        "Introduzione allo sviluppo Web",
+            "time":         "07-08/2011"
+          },
+          {
+            "title":        "ECDL core full 1,5,6",
+            "time":         "02-03/2011"
+          },
+          {
+            "title":        "Introduzione allo sviluppo Web",
+            "time":         "11/2010 01/2011"
+          },
+          {
+            "title":        "ECDL am4 advanced",
+            "time":         "11-12/2010"
+          },
+          {
+            "title":        "Elaborazione digitale dell'immagine: Adobe Photoshop",
+            "time":         "09-11/2010"
+          },
+          {
+            "title":        "ECDL core full 1-7",
+            "time":         "09-11/2010"
+          },
+          {
+            "title":        "ECDL core 1",
+            "time":         "09/2010"
+          },
+          {
+            "title":        "ECDL core 5",
+            "time":         "06/2010"
+          },
+          {
+            "title":        "ECDL core full 1-7",
+            "time":         "05-07/2010"
+          },
+          {
+            "title":        "Elementi di comunicazione diretta",
+            "time":         "05-07/2009"
+          }
+          ],
+          "links":        [{
+            "title": "IAL",
+            "url":   "http://www.ialweb.it/"
+          }]
+        },
+        {
+          "title":        "Docenze - gestione aziendale, comunicazione, IT",
+          "workplace":    "Edilmaster Trieste",
+          "time":         "2006 - 2010",
+          "details":  [
+          {
+            "title":        "Elementi di comunicazione diretta",
+            "time":         "02/2010 11/2009 06/2009 02/2009 11/2008 01/2008 05/2007"
+          },
+          {
+            "title":        "Elementi di gestione di una piccola azienda.",
+            "time":         "01-02/2010 11-12/2009 05-06/2009 02-03/2009"
+          },
+          {
+            "title":        "Elementi di gestione di una piccola azienda (avanzato).",
+            "time":         "09-12/2009"
+          },
+          {
+            "title":        "Elementi di problem solving.",
+            "time":         "11-12/2009"
+          },
+          {
+            "title":        "Comunicazione, gestione dei conflitti.",
+            "time":         "11/2009 06/2009 03/2009"
+          },
+          {
+            "title":        "Introduzione all'informatica ESF",
+            "time":         "10-11/2009"
+          },
+          {
+            "title":        "MS Project ESF",
+            "time":         "02/2009"
+          },
+          {
+            "title":        "MS Powerpoint ESF",
+            "time":         "02/2009"
+          },
+          {
+            "title":        "Introduzione a Internet ESF",
+            "time":         "01-03/2009"
+          },
+          {
+            "title":        "Informatica di base (insegnante incaricato presso la scuola professionale per operatore edile)",
+            "time":         "2007-2008 2006-2007"
+          },
+          {
+            "title":        "Introduzione a Internet",
+            "time":         "12/2007 05-06/2007"
+          }
+          ],
+          "links":        [{
+            "title": "Edilmaster",
+            "url":   "http://www.edilmaster.ts.it"
+          }]
+        },
+        {
+          "title":        "Docenze IT",
+          "workplace":    "Job & School FVG",
+          "time":         "2008",
+          "details":  [
+          {
+            "title":        "Elaborazione digitale dell'immagine: Adobe Photoshop (avanzato)",
+            "time":         "05-07 2008"
+          }
+          ],
+          "links":        [{
+            "title": "Job & School",
+            "url":   "http://www.job-school.com/"
+          }]
+        },
+        {
+          "title":        "Docenze IT",
+          "workplace":    "Ecoflora Medellin",
+          "time":         "2000",
+          "details":  [
+          {
+            "title":        "Introduzione all'uso del computer",
+            "time":         "01-02 2000"
+          }
+          ],
+          "links":        [{
+            "title": "Ecoflora",
+            "url":   "http://ecoflora.com.co/"
+          }]
+        }
+      ]
+      },
+
+      "projects":   [
+        {
+          "title":        "micros",
+          "time":         "now",
+          "blurb":        "microservices architecture",
+          "description":  "Docker based, node/postgres centered, microservices architecture.",
+          "technologies": ["linux", "AWS", "docker", "nodejs", "postgresql"],
+          "links":        [{
+            "title":    "BitBucket repository",
+            "url":      "https://bitbucket.org/giuliopicasso/micros/src"
+          }],
+          "tags":         ["secret project"]
+        },
+        {
+          "title":        "GATUTAG",
+          "time":         "- ?",
+          "blurb":        "multidimensional location based emotional tagging",
+          "description":  "An app, a game, a protocol. Emotional tagging.",
+          "technologies": ["nativescript", "angularjs", "micros"],
+          "links":        [],
+          "tags":         []
+        }
+      ],
+
+      "skills":   [
+        {
+          "title":        "*",
+          "skills":       ["comunicazione orale e scritta", "coaching", "project management", "coordinamento"]
+        },
+        {
+          "title":        "IT",
+          "skills":       ["software design", "OOP", "design patterns", "software integration", "microservices", "REST api", "XML", "generazione e gestione pdf", "amminstrazione linux", "cloud computing (AWS, heroku, openshift, digitalocean)", "sviluppo mobile (android/ios)", "VOIP telephony (asterisk)", "redazione documentazione tecnica"]
+        },
+        {
+          "title":        "[ java 6 - 8 ]",
+          "stars":        "3",
+          "skills":       ["swing", "javafx", "jetty", "xmlrpc", "htmlunit", "jfreecharts", "JDBC", "sviluppo android", "librerie minori ..."]
+        },
+        {
+          "title":        "[ ruby ]",
+          "stars":        "3",
+          "skills":       ["ruby on rails (varie gemme)", "spree", "jekyll", "rspec", "prawn", "librerie minori ..."]
+        },
+        {
+          "title":        "[ javascript ]",
+          "stars":        "4",
+          "skills":       ["jquery", "angularjs", "underscore", "knockoutjs", "twitter bootstrap", "kendoui", "typescript", "nodejs", "express", "require", "jspdf", "librerie minori ..."]
+        },
+        {
+          "title":        "[ php ]",
+          "stars":        "3",
+          "skills":       ["wordpress", "slim", "laravel", "smarty", "dompdf", "tcpdf", "librerie minori ..."]
+        },
+        {
+          "title":        "[ SQL ]",
+          "stars":        "4",
+          "skills":       ["postgres", "MYSQL", "sqlite"]
+        },
+        {
+          "title":        "Altro",
+          "stars":        "4",
+          "skills":       ["html5", "bootstrap", "foundation", "bash", "docker", "asterisk", "python (limited)", "redis (limited)"]
+        
+        },
+        {
+          "title":        "Per divertimento",
+          "skills":       ["algorithmic art", "supercollider", "overtone", "processing", "ableton live", "pure data"]
+        }
+      ],
+      "extracurriculars": [
+        {
+          "title":        "Padre amorevole",
+          "time":         "Sempre",
+          "description":  [],
+          "details":      "Amo profondamente la mia famiglia.",
+          "links":        [],
+          "tags":         []
+        },
+        {
+          "title":        "Olio d'oliva",
+          "time":         "Periodicamente",
+          "description":  [],
+          "details":      "Con mia moglie, ci prendiamo cura del nostro uliveto da 140 piante, raccogliamo e facciamo un olio eccezionale.",
+          "links":        [],
+          "tags":         []
+        },
+        {
+          "title":        "Suono il trombone",
+          "time":         "Occasionalmente",
+          "description":  [],
+          "details":      "Mi piace suonare il trombone. Un tempo ho anche sognato di farne una professione.",
+          "links":        [],
+          "tags":         []
+        }
+      ],
+      "langs":        [
+        {
+          "title":        "Italiano",
+          "stars":        "5"
+        },
+        {
+          "title":        "Inglese",
+          "stars":        "4"
+        },
+        {
+          "title":        "Spagnolo",
+          "stars":        "3"
+        },
+        {
+          "title":        "Tedesco",
+          "stars":        "2"
+        },
+        {
+          "title":        "Sloveno",
+          "stars":        "2"
+        },
+        {
+          "title":        "Serbo/Croato",
+          "stars":        "2"
+        }
+      ],
+      "honors":       []
+  }
+}
