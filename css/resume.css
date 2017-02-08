@@ -217,6 +217,7 @@ i.zmdi-star, i.zmdi-star-outline { color: #AB7712; }
     opacity: 0.95;
     position: relative;
     top: 0.32em;
+    min-width: 2.2em;
 }
 #print_cv:hover
 {
