@@ -354,7 +354,7 @@ Resume.controller("resumeController", function($scope, $http) {
         images: images
     };
     var pdf = pdfMake.createPdf(docDefinition);
-    // pdf.download();
-    pdf.open();
+    pdf.download();
+    // pdf.open();
   };
 });
