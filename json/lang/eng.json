@@ -45,12 +45,13 @@
           "achievements": [
             "2-way channel manager for desktop hotel PMS.",
             "Integration with GetYourBill automated invoices management system.",
+            "Integration with GenialFood restaurant management & POS app.",
             "Server administration.",
             "Technical assistance.",
             "[ Microservices cloud architecture. ]",
             "[ Hotel PMS (Mobile version - android/ios). ]"
           ],
-          "technologies": ["java", "swing","postgresql", "git",  "XML", "json", "php", "wordpress", "linux", "windows", "osx", "vmware", "[ docker ]", "[ nodejs ]", "[ nativescript ]", "[ angularjs ]"],
+          "technologies": ["java", "swing","postgresql", "git",  "XML", "json", "python", "php", "wordpress", "linux", "windows", "osx", "vmware", "[ docker ]", "[ nodejs ]", "[ nativescript ]", "[ angularjs ]"],
           "links":        [{
             "title":    "IDA",
             "url":      "https://www.idaitalia.com"
@@ -60,7 +61,7 @@
         {
           "title":        "ICT specialist",
           "workplace":    "Uelcom s.r.l. c/o Area Science Park Trieste",
-          "time":         "06/2015 - now",
+          "time":         "06/2015 - 05/2017",
           "achievements": [
             "Ruby on Rails mentoring.",
             "Automated invoicing for loyalty marketing system management.",

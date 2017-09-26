@@ -45,12 +45,13 @@
           "achievements": [
             "Channel manager a due vie per PMS desktop.",
             "Integrazione con il sistema di fatturazione automatica GetYourBill.",
+            "Integrazione con POS e gestione ristorante GenialFood.",
             "Amministrazione server.",
             "Assistenza tecnica.",
             "[ Architettura cloud microservices. ]",
             "[ Hotel PMS (Versione mobile - android/ios). ]"
           ],
-          "technologies": ["java", "swing","postgresql", "git",  "XML", "json", "php", "wordpress", "linux", "windows", "osx", "vmware", "[ docker ]", "[ nodejs ]", "[ nativescript ]", "[ angularjs ]"],
+          "technologies": ["java", "swing","postgresql", "git",  "XML", "json", "python", "php", "wordpress", "linux", "windows", "osx", "vmware", "[ docker ]", "[ nodejs ]", "[ nativescript ]", "[ angularjs ]"],
           "links":        [{
             "title":    "IDA",
             "url":      "https://www.idaitalia.com"
@@ -60,13 +61,12 @@
         {
           "title":        "Specialista ICT",
           "workplace":    "Uelcom s.r.l. c/o Area Science Park Trieste",
-          "time":         "06/2015 - now",
+          "time":         "06/2015 - 05/2017",
           "achievements": [
             "Formazione Ruby on Rails.",
             "Sistema di fatturazione integrato.",
             "Sviluppo sistema di loyalty marketing.",
-            "Consulenza tecnica.",
-            "[ App consumer ]"
+            "Consulenza tecnica."
           ],
           "technologies": ["AWS", "linux", "osx", "Apache", "git", "Ruby on Rails", "MYSQL", "REST", "android", "QR codes", "[ nativescript ]"],
           "links":        [{
