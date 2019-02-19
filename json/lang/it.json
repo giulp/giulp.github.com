@@ -63,6 +63,7 @@
           "workplace":    "Uelcom s.r.l. c/o Area Science Park Trieste",
           "time":         "06/2015 - 05/2017",
           "achievements": [
+            "Tutoraggio universitario android.",
             "Formazione Ruby on Rails.",
             "Sistema di fatturazione integrato.",
             "Sviluppo sistema di loyalty marketing.",
@@ -147,6 +148,18 @@
           }
       ],
       "mentoring": [
+        {
+          "title":        "Uelcom - tutoraggio Android",
+          "workplace":    "Uelcom s.r.l. - Trieste",
+          "time":         "02/2017 - 04/2017",
+          "description":  "Tutoraggio universitario su programmazione Android"
+        },
+        {
+          "title":        "Uelcom - Ruby on Rails mentoring",
+          "workplace":    "Uelcom s.r.l. - Trieste",
+          "time":         "06/2015 - 07/2015",
+          "description":  "Mentoring Ruby on Rails"
+        },
         {
           "title":        "Rails Girls Udine - head coach",
           "workplace":    "Friuli Innovazione s.r.l. - Udine",
