@@ -150,7 +150,7 @@ function ResumePdf(resumeData, lang){
               { image: 'giulpAvatar', width: 60, margin:[5,5], border: ALLFALSE },
               { stack: [
                 { text: this._data[this.lang].general.pdf_title, style: 'headerTitle', border: ALLFALSE },
-                { text: 'giuliopicasso@gmail.com            skype: giulio.picasso', style: {fontSize: 8, font: 'exo', alignment: 'center'}, border: ALLFALSE}
+                { text: 'giuliopicasso@gmail.com            skype: giuliopicasso', style: {fontSize: 8, font: 'exo', alignment: 'center'}, border: ALLFALSE}
                 ], margin: [0, 25, 0, 10], border: ALLFALSE
               },
               {
