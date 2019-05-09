@@ -41,15 +41,14 @@
         {
           "title":        "Specialista Web e integrazione sistemi",
           "workplace":    "F451 s.r.l. Trieste",
-          "time":         "05/2015 - oggi",
+          "time":         "05/2015 - 02/2019",
           "achievements": [
             "Channel manager a due vie per PMS desktop.",
             "Integrazione con il sistema di fatturazione automatica GetYourBill.",
             "Integrazione con POS e gestione ristorante GenialFood.",
             "Amministrazione server.",
             "Assistenza tecnica.",
-            "[ Architettura cloud microservices. ]",
-            "[ Hotel PMS (Versione mobile - android/ios). ]"
+            "[ Architettura cloud microservices. ]"
           ],
           "technologies": ["java", "swing","postgresql", "git",  "XML", "json", "python", "php", "wordpress", "linux", "windows", "osx", "vmware", "[ docker ]", "[ nodejs ]", "[ nativescript ]", "[ angularjs ]"],
           "links":        [{
@@ -131,8 +130,7 @@
             "Redazione documentazione tecnica piattaforma di ecommerce platform. [Abilene s.r.l.]",
             "Redazione documentazione tecnica  sistema tracciabilità dei vini. [ISVEA]",
             "Sviluppo configuratore web tende da sole mobile ready.",
-            "Sviluppo visualizzazione statistiche EntityPBX.",
-            "Ottimizzazione database EntityPBX."
+            "Ottimizzazione database - Sviluppo visualizzazione statistiche EntityPBX."
           ],
           "technologies": ["linux","Apache", "windows", "osx", "git", "php","MYSQL","javascript","voip","asterisk"],
           "links":        [{

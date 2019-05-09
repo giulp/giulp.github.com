@@ -23,7 +23,7 @@
     {
       "title":        "Web and integration specialist",
       "workplace":    "F451 s.r.l. Trieste",
-      "time":         "05/2015 - now",
+      "time":         "05/2015 - 02/2019",
       "achievements": ["2-way channel manager for desktop hotel PMS.",
         "Integration with GetYourBill automated invoices management system.",
         "Integration with GenialFood restaurant management & POS app.",
@@ -45,8 +45,8 @@
       "achievements": ["Ruby on Rails mentoring.",
         "Automated invoicing for loyalty marketing system management.",
         "Loyalty marketing system development.",
-        "Technical consulting.",
-        "[ Consumer app ]"],
+        "Technical consulting."
+      ],
       "technologies": ["AWS", "linux","Apache", "git", "Ruby on Rails", "MYSQL", "REST", "android", "QR codes", "[ nativescript ]"],
       "links":        [{
         "title":    "Uelcom",
@@ -104,8 +104,7 @@
         "ecommerce platform - technical writing. [Abilene s.r.l.]",
         "wine traceability system - technical writing. [ISVEA]",
         "mobile ready web based awning configurator - development.",
-        "EntityPBX stats visualization - development.",
-        "EntityPBX db optimization."],
+        "EntityPBX db optimization - stats visualization - development"],
       "technologies": ["linux","Apache", "git", "php","MYSQL","javascript","voip","asterisk"],
       "links":        [{
         "title":    "NewEntity",
