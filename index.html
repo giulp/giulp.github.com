@@ -1,6 +1,16 @@
 ﻿<!DOCTYPE html>
 <html ng-app=Resume  ng-controller="resumeController" ng-init="lang='en'">
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-35048191-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-35048191-1');
+  </script>
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title ng-bind="data[lang].resume.personal_info.name + ' - Resume'"></title>
   <link href="https://fonts.googleapis.com/css?family=Exo|PT+Sans|Raleway:500italic" rel="stylesheet" type='text/css'>
@@ -194,5 +204,6 @@
     </div>      
 
   </div>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/cookie-bar/cookiebar-latest.min.js?thirdparty=1&always=1&showPolicyLink=1&privacyPage=https%3A%2F%2Fdevelopers.google.com%2Fanalytics%2Fdevguides%2Fcollection%2Fanalyticsjs%2Fcookie-usage"></script>
 </body>
 </html>
