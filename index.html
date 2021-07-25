@@ -3,9 +3,9 @@
 <head>
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title ng-bind="data[lang].resume.personal_info.name + ' - Resume'"></title>
+  <title ng-bind="data[lang].resume.personal_info.name + ' - ' + (lang.toLowerCase() == 'en' ? 'Resume' : 'CV')"></title>
   <link href="https://fonts.googleapis.com/css?family=Exo|PT+Sans|Raleway:500italic" rel="stylesheet" type='text/css'>
-  <link rel="stylesheet" href="css/iconic.min.css">
+  <link rel="stylesheet" title="iconic" href="css/iconic.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css"> 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
   <link rel="stylesheet" href="css/resume.css"/>
@@ -64,9 +64,9 @@
             <a href ng-click="tab = 1"><i class="zmdi zmdi-code"></i><span ng-bind="data[lang].general.menu_dev"></span></a>  
           </li>
         </ul>   
-          <div style="clear:both;height:1px;margin:0;background: white">&nbsp;</div>
+          <div style="clear:both;height:1px;margin:0;background: transparent">&nbsp;</div>
       </div>
-          <div style="clear:both;height:1px;margin:0;background: white">&nbsp;</div>
+          <div style="clear:both;height:1px;margin:0;background: transparent">&nbsp;</div>
     </section>
     <div ng-show="tab === 1">
       <div class="section" ng-show="edus.length">

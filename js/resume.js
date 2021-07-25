@@ -124,55 +124,34 @@ Resume.controller("resumeController", function($scope, $http) {
     };
 
     function findSymbolForClass(selector) {
-      var result = '';
-      var sheets = document.styleSheets;
-
-      for (var sheetNr = 0; sheetNr < sheets.length; sheetNr++) {
-        var content = findCSSRuleContent(sheets[sheetNr], selector);
-
-        if (content) {
-          result = stripQuotes(content);
-          break;
-        }
+      const iconicSheet = document.styleSheets.find(s => s.title === 'iconic')
+      if(iconicSheet){
+        return stripQuotes(findCSSRuleContent(iconicSheet, selector))
       }
-      return result;
     };
     function findCSSRuleContent(mySheet, selector) {
       try {
-        if(!mySheet.cssRules)
-          return;
+        if(mySheet.cssRules !== undefined && mySheet.cssRules !== null){
+          for (const r of mySheet.cssRules || mySheet.rules) {
+            if (r.selectorText && r.selectorText.indexOf(selector) >= 0) {
+              return r.style.content;
+            }
+          }
+        }
       }
       catch(e) {
         if(e.name !== 'SecurityError')
           throw e;
-        return;
       }
-      var ruleContent = '';
-      var rules = mySheet.cssRules ? mySheet.cssRules : mySheet.rules;
-
-      for (var i = 0; i < rules.length; i++) {
-        var text = rules[i].selectorText;
-        if (text && text.indexOf(selector) >= 0) {
-          ruleContent = rules[i].style.content;
-          break;
-        }
-      }
-
-      return ruleContent;
+      return '';
     };
     function stripQuotes(s) { return s.slice(1, s.length - 1); };
     function starsString(stars){
-      if(stars == undefined) return ' ';
-
-      var i = 0;
-      var j = 0;
-      var ret  = [];
-      var empty = 5 - stars;
-
-      while(i < stars){ ret.push(ICO_STAR); i++; }
-      while(j < empty){ ret.push(ICO_STAR_0); j++; }
-
-      return ret;
+      const STARSLOTS = 5
+      if (stars) 
+        return [...Array(STARSLOTS)].map((_, i) => (i < stars) ? ICO_STAR : ICO_STAR_0) 
+      else 
+        return ' '
     };
 
     function _header(){
@@ -239,7 +218,7 @@ Resume.controller("resumeController", function($scope, $http) {
     function _dev(){
       var exps = JSON.parse(JSON.stringify(_data[lang].resume.experience.dev));
       var elenco = [{ text: [ICO_GROUPWORK, _data[lang].general.main_dev], margin: [0, 0, 0, 5] }]
-        .concat(exps.map(function(el, i){
+        .concat(exps.map(function(el){
           // console.log(el.achievements);return ' ';
           achievements = el.achievements == undefined ? [] : el.achievements;
           return { table: { widths: ['*', 'auto', '1'], border: ALLFALSE,
@@ -257,7 +236,7 @@ Resume.controller("resumeController", function($scope, $http) {
     };
     function _coaching(){
       var elenco = [{ text: [ICO_GROUPWORK, _data[lang].general.main_dev], margin: [0, 0, 0, 5] }]
-        .concat(_data[lang].resume.experience.mentoring.map(function(el, i){
+        .concat(_data[lang].resume.experience.mentoring.map(function(el){
           var details = el.details == undefined ? [] : el.details.map(function(el){return el.title;});
           return { table: { widths: ['*', 'auto', '1'], border: ALLFALSE,
               body: [
@@ -295,7 +274,7 @@ Resume.controller("resumeController", function($scope, $http) {
             widths: ['*','*','*','*','*','*','1'],
             body: 
             [
-              _data[lang].resume.langs.map(function(el, i){ 
+              _data[lang].resume.langs.map(function(el){ 
                 return { stack: [
                 {text: el.title, bold: true, style: 'langName', margin: [10,0,0,0]},
                 {text: starsString(el.stars), style:{alignment: 'center'}}
@@ -308,7 +287,7 @@ Resume.controller("resumeController", function($scope, $http) {
       ];
     };
     function _progetti(){
-      return [{ text: [ICO_COLLPLUS, _data[lang].general.h1_projects] }].concat(_data[lang].resume.projects.map(function(el, i){
+      return [{ text: [ICO_COLLPLUS, _data[lang].general.h1_projects] }].concat(_data[lang].resume.projects.map(function(el){
         return {
           table: {
             widths: ['*', 'auto', '1'],
@@ -321,7 +300,7 @@ Resume.controller("resumeController", function($scope, $http) {
       }));
     };
     function _extra(){
-      return [{ text: [ICO_HOME, ' Extra'] }].concat(_data[lang].resume.extracurriculars.map(function(el, i){
+      return [{ text: [ICO_HOME, ' Extra'] }].concat(_data[lang].resume.extracurriculars.map(function(el){
         return {
           table: {
             widths: ['auto', '*', '1'],
