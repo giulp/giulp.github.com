@@ -1,0 +1,187 @@
+[
+  {
+    "title":        {"it": "Uelcom - tutoraggio Android", "en":"Uelcom - Android mentoring"},
+    "workplace":    "Uelcom s.r.l. - Trieste",
+    "time":         "02/2017 - 04/2017",
+    "description":  {"it": "Tutoraggio universitario su programmazione Android", "en":"Android one on one mentoring."}
+  },
+  {
+    "title":        {"it": "Uelcom - Ruby on Rails mentoring", "en": "Uelcom - Ruby on Rails mentoring"},
+    "workplace":    "Uelcom s.r.l. - Trieste",
+    "time":         "06/2015 - 07/2015",
+    "description":  {"it": "Mentoring Ruby on Rails", "en": "Ruby on Rails one on one mentoring."}
+  },
+  {
+    "title":        {"it": "Rails Girls Udine - head coach", "en": "Rails Girls Udine - head coach"},
+    "workplace":    "Friuli Innovazione s.r.l. - Udine",
+    "time":         "06/2014",
+    "description":  {"it": "Coordinamento coach Rails girls (Ruby on Rails).", "en": "Rails girls (Ruby on Rails) coaching team management."},
+    "links":        [{
+      "title":    "Rails Girls",
+      "url":      "http://railsgirls.com/"
+    }]
+  },
+  {
+    "title":        {"it": "Docenza corso Wordpress", "en":"Wordpress course - teacher"},
+    "workplace":    "ARCI - Trieste",
+    "time":         "04 - 05/2013",
+    "description":  {"it": "\n", "en":"\n"},
+    "links":        []
+  },
+  {
+    "title":        {"it": "Docenze corsi IT", "en": "IT courses - teacher"},
+    "workplace":    "IAL - FVG",
+    "time":         "2010 - 2012",
+    "details":  [
+    {
+      "title":        "Comunicazione Web",
+      "time":         "10/2012"
+    },
+    {
+      "title":        "MS Word avanzato",
+      "time":         "09-10/2012"
+    },
+    {
+      "title":        "Sviluppo Web",
+      "time":         "05-06/2012"
+    },
+    {
+      "title":        "MS Word",
+      "time":         "01-04/2012"
+    },
+    {
+      "title":        "Introduzione all'uso del computer",
+      "time":         "11/2011"
+    },
+    {
+      "title":        "Introduzione allo sviluppo Web",
+      "time":         "07-08/2011"
+    },
+    {
+      "title":        "ECDL core full 1,5,6",
+      "time":         "02-03/2011"
+    },
+    {
+      "title":        "Introduzione allo sviluppo Web",
+      "time":         "11/2010 01/2011"
+    },
+    {
+      "title":        "ECDL am4 advanced",
+      "time":         "11-12/2010"
+    },
+    {
+      "title":        "Elaborazione digitale dell'immagine: Adobe Photoshop",
+      "time":         "09-11/2010"
+    },
+    {
+      "title":        "ECDL core full 1-7",
+      "time":         "09-11/2010"
+    },
+    {
+      "title":        "ECDL core 1",
+      "time":         "09/2010"
+    },
+    {
+      "title":        "ECDL core 5",
+      "time":         "06/2010"
+    },
+    {
+      "title":        "ECDL core full 1-7",
+      "time":         "05-07/2010"
+    },
+    {
+      "title":        "Elementi di comunicazione diretta",
+      "time":         "05-07/2009"
+    }
+    ],
+    "links":        [{
+      "title": "IAL",
+      "url":   "http://www.ialweb.it/"
+    }]
+  },
+  {
+    "title":        {"it":"Docenze - gestione aziendale, comunicazione, IT", "en": "Business basics, comunication, IT courses - teacher"},
+    "workplace":    "Edilmaster Trieste",
+    "time":         "2006 - 2010",
+    "details":  [
+    {
+      "title":        "Elementi di comunicazione diretta",
+      "time":         "02/2010 11/2009 06/2009 02/2009 11/2008 01/2008 05/2007"
+    },
+    {
+      "title":        "Elementi di gestione di una piccola azienda.",
+      "time":         "01-02/2010 11-12/2009 05-06/2009 02-03/2009"
+    },
+    {
+      "title":        "Elementi di gestione di una piccola azienda (avanzato).",
+      "time":         "09-12/2009"
+    },
+    {
+      "title":        "Elementi di problem solving.",
+      "time":         "11-12/2009"
+    },
+    {
+      "title":        "Comunicazione, gestione dei conflitti.",
+      "time":         "11/2009 06/2009 03/2009"
+    },
+    {
+      "title":        "Introduzione all'informatica ESF",
+      "time":         "10-11/2009"
+    },
+    {
+      "title":        "MS Project ESF",
+      "time":         "02/2009"
+    },
+    {
+      "title":        "MS Powerpoint ESF",
+      "time":         "02/2009"
+    },
+    {
+      "title":        "Introduzione a Internet ESF",
+      "time":         "01-03/2009"
+    },
+    {
+      "title":        "Informatica di base (insegnante incaricato presso la scuola professionale per operatore edile)",
+      "time":         "2007-2008 2006-2007"
+    },
+    {
+      "title":        "Introduzione a Internet",
+      "time":         "12/2007 05-06/2007"
+    }
+    ],
+    "links":        [{
+      "title": "Edilmaster",
+      "url":   "http://www.edilmaster.ts.it"
+    }]
+  },
+  {
+    "title":        {"it": "Docenze IT", "en": "IT courses - teacher"},
+    "workplace":    "Job & School FVG",
+    "time":         "2008",
+    "details":  [
+    {
+      "title":        "Elaborazione digitale dell'immagine: Adobe Photoshop (avanzato)",
+      "time":         "05-07 2008"
+    }
+    ],
+    "links":        [{
+      "title": "Job & School",
+      "url":   "http://www.job-school.com/"
+    }]
+  },
+  {
+    "title":        {"it": "Docenze IT", "en": "IT courses - teacher"},
+    "workplace":    "Ecoflora Medellin",
+    "time":         "2000",
+    "details":  [
+    {
+      "title":        "Introduzione all'uso del computer",
+      "time":         "01-02 2000"
+    }
+    ],
+    "links":        [{
+      "title": "Ecoflora",
+      "url":   "http://ecoflora.com.co/"
+    }]
+  }
+]

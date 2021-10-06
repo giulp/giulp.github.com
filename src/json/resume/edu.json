@@ -1,0 +1,33 @@
+[
+  {
+    "degree": "Scienze della comunicazione",
+    "school": "Università degli studi di Trieste",
+    "year": "1993 - 1997",
+    "courses": [
+      "antropologia culturale",
+      "sociologia della comunicazione",
+      "semiotica",
+      "teorie e tecniche della comunicazione di massa",
+      "teorie e tecniche del linguaggio radiotelevisivo",
+      "teorie e tecniche del linguaggio cinematografico",
+      "teorie e tecniche della comunicazione pubblica",
+      "teorie e tecniche della comunicazione multimediale",
+      "informatica",
+      "sistemi esperti e intelligenza artificiale",
+      "storia contemporanea",
+      "diritto pubblico",
+      "diritto privato",
+      "economia"
+    ]
+  }, 
+  {
+    "school": "Centro di calcolo - UTS",
+    "year": "1996 - 1998",
+    "courses": [
+      "java",
+      "algoritmi e strutture dati in java",
+      "amministrazione linux",
+      "Visual Basic"
+    ]
+  }
+]

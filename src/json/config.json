@@ -1,0 +1,28 @@
+{
+  "menu": {
+    "dev": {
+      "name": {"it": "SVILUPPO", "en": "DEV"},
+      "ico": "code"
+    },
+    "coaching": {
+      "name": {"it": "FORMAZIONE", "en": "COACHING"},
+      "ico": "face"
+    }
+  },
+  "labels": {
+    "pdf_title": {"it": "Giulio Picasso CV", "en": "Giulio Picasso (resume)"},
+    "search_resume":  {"it": "Cerca nel cv", "en": "Search resume"},
+    "h1_education":   {"it": "Istruzione", "en": "Education"},
+    "main_dev":     {"it": "Esperienze", "en": "Experience"},
+    "section_links":  {"it": "Link:", "en": "Links:"},
+    "section_tech":   {"it": "Tecnologie:", "en": "Technologies:"},
+    "h1_projects":    {"it": "Progetti", "en": "Projects"},
+    "main_coaching":  {"it": "Coaching e formazione", "en": "Coaching and mentoring"},
+    "section_details":  {"it": "Dettagli", "en": "Details"},
+    "section_skill":  {"it": "Skill", "en": "Skills"},
+    "section_courses":  {"it": "Corsi", "en": "Courses"},
+    "section_langs":  {"it": "Lingue", "en": "Languages"},
+    "h1_extra":     {"it": "Extracurriculare", "en": "Extracurriculars"},
+    "h1_honor":     {"it": "Menzioni", "en": "Honors"}
+  }
+}

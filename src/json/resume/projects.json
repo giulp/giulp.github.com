@@ -1,0 +1,21 @@
+[
+    {
+      "title":        "micros",
+      "blurb":        "microservices architecture",
+      "description":  "Docker based, node/postgres centered, microservices architecture.",
+      "technologies": ["linux", "AWS", "docker", "nodejs", "postgresql"],
+      "links":        [{
+        "title":    "BitBucket repository",
+        "url":      "https://bitbucket.org/giuliopicasso/micros/src"
+      }],
+      "tags":         ["secret project"]
+    },
+    {
+      "title":        "GATTAG",
+      "blurb":        "multidimensional location based emotional tagging",
+      "description":  "An app, a game, a protocol. Emotional tagging.",
+      "technologies": ["nativescript", "angularjs", "micros"],
+      "links":        [],
+      "tags":         []
+    }
+  ]

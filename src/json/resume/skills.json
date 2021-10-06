@@ -1,0 +1,54 @@
+[
+  {
+    "title":        "SOFT",
+    "topics":       ["communication", "project management", "team management", "coaching"]
+  },
+  {
+    "title":        "IT",
+    "topics":       ["software design", "software integration", "web design", "api integration",  "mobile (android/ios)", "linux administration", "voip", "technical writing", "mentoring"]
+  },
+  {
+    "title":        "CLOUD",
+    "stars":        "2",
+    "topics":       ["gae", "google datastore", "AWS ec2", "AWS s3", "heroku", "digitalocean"]
+  },
+  {
+    "title":        "JAVA",
+    "stars":        "3",
+    "topics":       ["gae", "spring", "jakartaee", "jaxb", "jersey", "swing", "javafx", "jetty", "xmlrpc", "htmlunit", "jfreecharts", "JDBC", "android development"]
+  },
+  {
+    "title":        "JAVASCRIPT",
+    "stars":        "4",
+    "topics":       ["vue", "jquery", "angular", "underscore", "bootstrap", "kendoui", "nodejs", "webpack", "jspdf"]
+  },
+  {
+    "title":        "FLUTTER",
+    "stars":        "2",
+    "topics":       ["android", "ios", "web"]
+  },
+  {
+    "title":        "RUBY",
+    "stars":        "3",
+    "topics":       ["ruby on rails", "jekyll"]
+  },
+  {
+    "title":        "PHP",
+    "stars":        "3",
+    "topics":       ["wordpress", "slim", "laravel", "smarty", "dompdf", "tcpdf"]
+  },
+  {
+    "title":        "SQL",
+    "stars":        "3",
+    "topics":       ["postgres", "MYSQL", "sqlite"]
+  },
+  {
+    "title":        "noSQL",
+    "stars":        "2",
+    "topics":       ["mongo", "google datastore"]
+  },
+  {
+    "title":        "fun",
+    "topics":       ["raspberry pi", "digital art production"]
+  }
+]

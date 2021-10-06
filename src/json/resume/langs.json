@@ -1,0 +1,26 @@
+[
+    {
+        "title":        {"it": "Italiano", "en": "Italian"},
+        "stars":        "5"
+    },
+    {
+        "title":        {"it": "Inglese", "en": "English"},
+        "stars":        "4"
+    },
+    {
+        "title":        {"it": "Spagnolo", "en": "Spanish"},
+        "stars":        "3"
+    },
+    {
+        "title":        {"it": "Tedesco", "en": "German"},
+        "stars":        "2"
+    },
+    {
+        "title":        {"it": "Sloveno", "en": "Slovene"},
+        "stars":        "2"
+    },
+    {
+        "title":        {"it": "Serbo/Croato", "en": "Serbian/Croatian"},
+        "stars":        "2"
+    }
+]

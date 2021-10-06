@@ -1,0 +1,265 @@
+[
+  {
+    "title":        {
+      "it": "Analista multiruolo: web, mobile, cloud | Sysadmin", 
+      "en": "Multirole analyst and developer - web, mobile, cloud | Sysadmin"
+    },
+    "workplace":    "Mida4 s.r.l. Trieste",
+    "time":         "2019 - now",
+    "achievements": [
+      {
+        "it": "Sviluppo mobile Flutter android/IOS - sviluppo Flutter web", 
+        "en": "Mobile development Flutter android/IOS - Flutter web"},
+      {
+        "it": "Sviluppo Java/gae Vue.js",
+        "en": "Java/gae Vue.js development"
+      },
+      {
+        "it": "Setup e amministrazione di un network Wordpress multisite",
+        "en": "Multisite Wordpress network setup and management"
+      },
+      {
+        "it": "Integrazione eshop Wordpress/Woocommerce - ticketing system OTRS - php",
+        "en": "Wordpress/Woocommerce eshop - OTRS ticketing system integration - php"
+      },
+      {
+        "it": "Assistenza amministrazione infrastruttura server ibrida cloud/onsite",
+        "en": "Hybrid cloud/onsite server infrastructure administration"
+      },
+      {
+        "it": "Analisi scalabilità Windows terminal server su aws",
+        "en": "Scalability analisys for Windows terminal server on aws"
+      },
+      {
+        "it": "Analisi comparativa pricing aws",
+        "en": "Comparative analisys of aws pricing"
+      }
+    ],
+    "technologies": ["google cloud", "gae", "google datastore", "aws ec2", "jakarta ee", "flutter", "XML", "SOAP", "REST", "wordpress", "php", "git", "linux", "zfs", "smb", "windows server", "vue", "angularjs", "stripe"],
+    "links":        [{
+      "title":    "Mida4",
+      "url":      "https://"
+    }],
+    "tags":         ["channel manager", "pms", "hotel", "integrazione", "REST"]
+  },
+  {
+    "title":        {"it": "Specialista Web e integrazione sistemi", "en": "Web and integration specialist"},
+    "workplace":    "F451 s.r.l. Trieste",
+    "time":         "2015 - 2019",
+    "achievements": [
+      {
+        "it": "Channel manager a due vie per PMS desktop - java/swing/postgres",
+        "en": "2-way channel manager for desktop hotel PMS - java/swing/postgres"
+      },
+      {
+        "it": "Integrazione con il sistema di fatturazione automatica GetYourBill - java/REST",
+        "en": "Integration with GetYourBill automated invoices management system - java/REST"
+      },
+      {
+        "it": "Integrazione con POS e gestione ristorante GenialFood - java/REST",
+        "en": "Integration with GenialFood restaurant management & POS app - java/REST"
+      },
+      {
+        "it": "Amministrazione server - linux/aws",
+        "en": "Server administration - linux/aws"
+      },
+      {
+        "it": "Assistenza tecnica.",
+        "en": "Technical assistance."
+      },
+      {
+        "it": "Analisi architettura cloud microservices",
+        "en": "Microservices cloud architecture analysis"
+      }
+    ],
+    "technologies": ["java", "swing","postgresql", "git",  "XML", "json", "python", "php", "wordpress", "linux", "windows", "osx", "vmware", "docker", "nodejs"],
+    "links":        [{
+      "title":    "IDA",
+      "url":      "https://www.idaitalia.com"
+    }],
+    "tags":         ["channel manager", "pms", "hotel", "integrazione", "REST"]
+  },
+  {
+    "title":        {"it":"Specialista ICT", "en": "ICT specialist"},
+    "workplace":    "Uelcom s.r.l. c/o Area Science Park Trieste",
+    "time":         "2015 - 2017",
+    "achievements": [
+      {
+        "it": "Tutoraggio universitario sviluppo android.",
+        "en": "Android development one on one tutoring."
+      },
+      {
+        "it": "Formazione Ruby on Rails.",
+        "en": "Ruby on Rails mentoring."
+      },
+      {
+        "it": "Sistema di fatturazione integrato - Ruby on rails/Postgres",
+        "en": "Automated invoicing for loyalty marketing system management - Ruby on rails/Postgres"
+      },
+      {
+        "it": "Sviluppo sistema di loyalty marketing - Ruby on rails/Postgres/javascript/Google maps",
+        "en": "Loyalty marketing system development - Ruby on rails/Postgres/javascript/Google maps"
+      },
+      {
+        "it": "Consulenza tecnica.",
+        "en": "Technical consulting."
+      }
+    ],
+    "technologies": ["AWS", "linux", "osx", "Apache", "git", "Ruby on Rails", "MYSQL", "REST", "android", "Google maps"],
+    "links":        [{
+      "title":    "Uelcom",
+      "url":      "https://uelcom.me"
+    }],
+    "tags":         ["loyalty marketing", "ruby on rails"]
+  },
+  {
+    "title":        {"it": "Specialista Web - lead developer", "en": "Web specialist - lead developer"},
+    "workplace":    "IVSDATA s.r.l. Treviso",
+    "time":         "2013 - 2014",
+    "achievements": [
+      {
+        "it": "Setup e amministrazione infrastruttura server - linux/Windows Server 2012/aws",
+        "en": "Server infrastructure setup and administration - linux/Windows Server 2012/aws"
+      },
+      {
+        "it": "Setup e amministrazione controllo di versione (git).",
+        "en": "Version control (git) setup and administration."
+      },
+      {
+        "it": "Integrazione con sistema di autenticazione SAML - PHP/Windows Server 2012",
+        "en": "SAML authentication integration - PHP/Windows Server 2012"
+      },
+      {
+        "it": "Coordinamento team di sviluppo interno ed esterno.",
+        "en": "In and offshore development team management."
+      },
+      {
+        "it": "Infrastruttura web per le valutazioni immobiiliari - Ruby on rails/Postgres/javascript",
+        "en": "Web app infrastructure for real estate evaluation - Ruby on rails/Postgres/javascript"
+      },
+      {
+        "it": "Consulenza tecnica.",
+        "en": "Technical consulting."
+      }
+    ],
+    "technologies": ["linux","Apache", "windows server 2012", "osx", "git", "Ruby on Rails", "postgresql", "javascript"],
+    "links":        [{
+      "title":    "IVSDATA",
+      "url":      "http://www.ivsdata.it/"
+    }],
+    "tags":         ["integrazione", "SAML", "ruby on rails","javascript", "zurb foundation"]
+  },
+  {
+    "title":        {"it": "CTO - lead developer", "en": "CTO - lead developer"},
+    "workplace":    "Barcheyacht s.r.l. c/o InnovationFactory - Area Science Park Trieste",
+    "time":         "2012 - 2014",
+    "achievements": [
+      {
+        "it": "Setup e amministrazione infrastruttura server - linux/VMware/aws/Digital Ocean",
+        "en": "Server infrastructure setup and administration - linux/VMware/aws/Digital Ocean"
+      },
+      {
+        "it": "Setup e amministrazione controllo di versione (git).",
+        "en": "Version control (git) setup and administration."
+      },
+      {
+        "it": "Coordinamento team di sviluppo interno ed esterno.",
+        "en": "In and offshore development team management."
+      },
+      {
+        "it": "Integrazione con servizio XML a due vie di pubblicazione annunci - PHP/SOAP",
+        "en": "XML 2-way web service integration - PHP/SOAP"
+      },
+      {
+        "it": "Realizzazione portale per la vendita e il noleggio di barche a vela - PHP/MYSQL/Jquery",
+        "en": "Boat renting/charter web portal."
+      },
+      {
+        "it": "Consulenza tecnica.",
+        "en": "Technical consulting."
+      }
+    ],
+    "technologies": ["linux","Apache", "osx", "git", "php","MYSQL","javascript", "twitter bootstrap"],
+    "links":        [],
+    "tags":         []
+  },
+  {
+    "title":        {"it": "Sviluppo Web/VOIP, redazione documentazione tecnica.", "en": "Web/VOIP development, technical writing"},
+    "workplace":    "NewEntity s.r.l. Trieste",
+    "time":         "2009 - 2013",
+    "achievements": [
+      {
+        "it": "Sviluppo di un framework di geolocalizzazione per analisi e campagne di marketing - PHP/Postgres/javascript/Google maps",
+        "en": "Geolocalization based marketing framework - development - PHP/Postgres/javascript/Google maps"
+      },
+      {
+        "it": "Sviluppo CloudPBX - SAAS generatore di PBX VOIP. [Timenet s.r.l.] - linux/PHP/Postgres/asterisk",
+        "en": "CloudPBX - SAAS VOIP/PBX - development. [Timenet s.r.l.] - linux/PHP/Postgres/asterisk"
+      },
+      {
+        "it": "Redazione documentazione tecnica CloudPBX - SAAS generatore di PBX VOIP. [Timenet s.r.l.]",
+        "en": "CloudPBX - SAAS VOIP/PBX - technical writing. [Timenet s.r.l.]"
+      },
+      {
+        "it": "Redazione documentazione tecnica piattaforma di ecommerce platform. [Abilene s.r.l.]", 
+        "en": "ecommerce platform - technical writing. [Abilene s.r.l.]"
+      },
+      {
+        "it": "Redazione documentazione tecnica  sistema tracciabilità dei vini. [ISVEA]", 
+        "en": "wine traceability system - technical writing. [ISVEA]"
+      },
+      {
+        "it": "Sviluppo configuratore web tende da sole mobile ready - PHP/Postgres", 
+        "en": "mobile ready web based awning configurator - development - PHP/Postgres."
+      },
+      {
+        "it": "EntityPBX (FreePBX fork): Ottimizzazione database MYSQL - Sviluppo PHP visualizzazione statistiche.", 
+        "en": "EntityPBX (FreePBX fork): MYSQL db optimization - PHP development of stats visualization"
+      },
+      {
+        "it": "Professional Pets", 
+        "en": "Professional Pets"
+      }
+    ],
+    "technologies": ["linux","Apache", "windows", "osx", "git", "php", "MYSQL", "postgres","javascript","voip","asterisk", "EntityPBX"],
+    "links":        [{
+      "title":    "NewEntity",
+      "url":      "http://www.newentity.it/"}],
+      "tags":         []
+    },
+    {
+      "title":        {"it":"Consulente ICT freelance", "en": "Freelance ICT Consulting"},
+      "workplace":    "Trieste",
+      "achievements": [
+        {
+          "it": "Pianeta Zero - assistenza linux", 
+          "en": "Pianeta Zero - linux assistance"
+        },
+        {
+          "it": "Ullman sails - web design",
+          "en": "Ullman sails - web design"
+        },
+        {
+          "it": "Agriturismo Baccalamanza - web design", 
+          "en": "Agriturismo Baccalamanza - web design"
+        },
+        {
+          "it": "Serse Roma - web design", 
+          "en": "Serse Roma - web design"
+        },
+        {
+          "it": "Tecnospray - web design",
+          "en": "Tecnospray - web design"
+        },
+        {
+          "it": "Cutting Martinuzzo - web design",
+          "en": "Cutting Martinuzzo - web design"
+        },
+        {
+          "it": "Assistenza tecnica", 
+          "en": "Technical assistance"
+        }
+      ],
+      "technologies": ["html","css", "javascript", "php", "MYSQL", "windows","linux"]
+    }
+]
