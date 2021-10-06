@@ -1,6 +1,6 @@
 # Vue3 Resume
 
-An interactive, mobile-friendly resume app with Vue js inspired from on [ng-resume](https://github.com/hazrmard/ng-Resume)
+An interactive, mobile-friendly resume app with Vue js inspired from [ng-resume](https://github.com/hazrmard/ng-Resume)
   
 ## What is Vue3 Resume ?
 
