@@ -138,6 +138,7 @@ export default {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
+        flex-flow: row wrap;
         .subheading {
           display:block;
           padding: .5rem 0;

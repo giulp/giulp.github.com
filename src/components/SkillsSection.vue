@@ -55,11 +55,11 @@ export default {
       }
     }
     .technologies {
-      padding: 0.3rem 1rem 1rem 1rem;
-      line-height: 2rem;
       display: grid;
-      grid-template-columns: repeat(5, 1fr);
-      gap: 1.5rem;    
+      grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+      gap: 1.5rem;
+      padding: 0.3rem 0 1rem 0;
+      line-height: 2rem;
       .tech {
         font-size: 1rem;
         padding: 0.3rem 0.7rem;
