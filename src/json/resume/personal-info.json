@@ -1,15 +1,15 @@
 {
-    "name":     "Giulio Picasso",
-    "email":    "giuliopicasso@giulp.com",
-    "phone":    "+39 346 2422558",
-    "links":  [
-      {
-        "title":    "linkedin",
-        "url":      "https://it.linkedin.com/in/giuliopicasso"
-      },
-      {
-        "title":    "stackoverflow",
-        "url":      "http://stackoverflow.com/users/3739756/giulp"
-      }
-    ]
-  }
+  "name":     "Giulio Picasso",
+  "email":    "giuliopicasso@giulp.com",
+  "phone":    "+39 346 2422558",
+  "links":  [
+    {
+      "title":    "linkedin",
+      "url":      "https://it.linkedin.com/in/giuliopicasso"
+    },
+    {
+      "title":    "stackoverflow",
+      "url":      "http://stackoverflow.com/users/3739756/giulp"
+    }
+  ]
+}

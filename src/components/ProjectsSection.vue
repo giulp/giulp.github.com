@@ -1,8 +1,23 @@
+<script setup lang="ts">
+import { storeToRefs } from "pinia";
+import { useConfigStore } from "@/stores/config";
+import { useResumeStore } from "@/stores/resume";
+import SectionTpl from '@/components/common/SectionTpl.vue';
+
+const configStore = useConfigStore();
+const resumeStore = useResumeStore();
+
+const { lang, labels } = storeToRefs(configStore);
+const { projects } = storeToRefs(resumeStore);
+
+const { h1_projects } = labels.value;
+</script>
+
 <template>
-  <SectionTpl id="projects" 
-    :title="{ico: 'collection-plus', txt: config.labels.h1_projects[lang]}">
-    <div class="projects subsection" 
-      v-for="project in resume.projects" :key="project.title">
+  <SectionTpl id="projects"
+              :title="{ico: 'collection-plus', txt: h1_projects[lang]}">
+    <div class="projects subsection"
+         v-for="project in projects" :key="project.title">
       <div class="technologies" v-if="project.technologies.length">
         <!-- <div class="subheading">
           <span>{{config.labels.section_tech[lang]}}</span>
@@ -25,54 +40,36 @@
   </SectionTpl>
 </template>
 
-<script>
-import {mapState} from 'vuex'
-import SectionTpl from '@/components/_common/SectionTpl'
-export default {
-  components: {
-    SectionTpl
-  },
-  computed: {
-    ...mapState([
-      'lang',
-      'active',
-      'config',
-      'resume'
-    ])
+<style lang="scss">
+#projects {
+  h4 {
+    font-size: 1rem;
+    font-weight: bold;
+    float: right;
+  }
+  .technologies {
+    float: right;
+    padding-top: 1rem;
+    .tech {
+      text-align: center;
+      border: none;
+      background: transparent;
+      // box-shadow: 3px 3px 8px lightgrey !important;
+      // border-radius: 0.3em;
+    }
+  }
+  .description {
+    text-align: center;
+    margin: 1.5rem;
+    background-color: white;
+    background: linear-gradient(145deg, #f7f3ef, #fff0);
+    color: black;
+    font-size: 110%;
+    border-color: lightgray;
+    box-shadow: 3px 3px 8px lightgrey !important;
+    border-radius: 5px;
+    padding: 1rem;
+    border: 1px solid #eeeeee;
   }
 }
-</script>
-
-<style lang="scss">
-  #projects {
-    h4 {
-      font-size: 1rem;
-      font-weight: bold;
-      float: right;
-    }
-    .technologies {
-      float: right;
-      padding-top: 1rem;
-      .tech {
-        text-align: center;
-        border: none;
-        background: transparent;
-        // box-shadow: 3px 3px 8px lightgrey !important;
-        // border-radius: 0.3em;
-      }
-    }
-    .description {
-      text-align: center;
-      margin: 1.5rem;
-      background-color: white;
-      background: linear-gradient(145deg, #f7f3ef, #fff0);
-      color: black;
-      font-size: 110%;
-      border-color: lightgray;
-      box-shadow: 3px 3px 8px lightgrey !important;
-      border-radius: 5px;
-      padding: 1rem;
-      border: 1px solid #eeeeee;
-    }
-  }
 </style>

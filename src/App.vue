@@ -1,33 +1,10 @@
-<template>
-  <PersonalHeader />
-  <AppMenu />
-  <WorkSection />
-  <EducationSection />
-  <ProjectsSection />
-  <SkillsSection/> 
-</template>
-
-<script>
-
-import PersonalHeader from './components/PersonalHeader'
-import AppMenu from './components/AppMenu'
-import WorkSection from './components/WorkSection'
-import EducationSection from './components/EducationSection'
-import ProjectsSection from './components/ProjectsSection'
-import SkillsSection from './components/SkillsSection'
-
-export default {
-  name: 'App',
-  components: {
-    PersonalHeader,
-    AppMenu,
-    WorkSection,
-    EducationSection,
-    ProjectsSection,
-    SkillsSection
-  }
-}
+<script setup lang="ts">
+import { RouterView } from 'vue-router'
 </script>
+
+<template>
+  <RouterView />
+</template>
 
 <style lang="scss">
 body {
@@ -37,7 +14,7 @@ body {
   background-blend-mode: luminosity;
   background-attachment: fixed;
 
-  header, section, nav, #search {    
+  header, section, nav, #search {
     border: 2px solid darkslategray;
     box-shadow: 3px 3px 8px black !important;
     border-radius: 10px;
@@ -58,9 +35,9 @@ body {
       padding: 0.5rem 1.5rem 0 1rem;
       line-height: 3.5rem;
       font-size: 2rem;
-      i { 
+      i {
         color: #25201c;
-        vertical-align: middle; 
+        vertical-align: middle;
       }
       span {
         margin-left: 1.5rem;
@@ -91,25 +68,25 @@ body {
       }
     }
 
-      .links {
-        padding: .2rem 0;
-        a { 
-          background-color: #DFF2FF;
-          margin: 0.5em;
+    .links {
+      padding: .2rem 0;
+      a {
+        background-color: #DFF2FF;
+        margin: 0.5em;
 
-          padding: 0.2em 0.5em;
-          border-radius: 0.3em;
-          border: 1px solid #A0B1C3;
-          color: black;
-          text-decoration: none;
-          &:hover {
-            background-color: transparent;
-            color: rgb(0, 83, 155);
-            border-color: transparent;
-            text-decoration: underline;
-          }
+        padding: 0.2em 0.5em;
+        border-radius: 0.3em;
+        border: 1px solid #A0B1C3;
+        color: black;
+        text-decoration: none;
+        &:hover {
+          background-color: transparent;
+          color: rgb(0, 83, 155);
+          border-color: transparent;
+          text-decoration: underline;
         }
       }
+    }
   }
 }
 </style>
