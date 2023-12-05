@@ -30,7 +30,7 @@ function findSymbolForClass(selector) {
 }
 
 function starsString(stars) {
-  const STARSLOTS = 5
+  const STARSLOTS = 10
   if (stars) 
     return [...Array(STARSLOTS)].map((_, i) => (i < stars) ? ICO_STAR : ICO_STAR_0) 
   else 

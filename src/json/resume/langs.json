@@ -1,26 +1,30 @@
 [
     {
         "title":        {"it": "Italiano", "en": "Italian"},
-        "stars":        "5"
+        "stars":        "10"
     },
     {
         "title":        {"it": "Inglese", "en": "English"},
-        "stars":        "4"
+        "stars":        "8"
     },
     {
         "title":        {"it": "Spagnolo", "en": "Spanish"},
-        "stars":        "3"
+        "stars":        "6"
     },
     {
         "title":        {"it": "Tedesco", "en": "German"},
-        "stars":        "2"
+        "stars":        "5"
+    },
+    {
+        "title":        {"it": "Francese", "en": "French"},
+        "stars":        "5"
+    },
+    {
+        "title":        {"it": "Croato", "en": "Croatian"},
+        "stars":        "4"
     },
     {
         "title":        {"it": "Sloveno", "en": "Slovene"},
-        "stars":        "2"
-    },
-    {
-        "title":        {"it": "Serbo/Croato", "en": "Serbian/Croatian"},
         "stars":        "2"
     }
 ]
