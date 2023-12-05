@@ -8,12 +8,36 @@
     "time": "2019 - now",
     "achievements": [
       {
-        "it": "Sviluppo mobile Flutter android/IOS - sviluppo Flutter web",
-        "en": "Mobile development Flutter android/IOS - Flutter web"
+        "it": "SpeseSanitarie - Project Manager - ",
+        "en": ""
       },
       {
-        "it": "Sviluppo Java/gae Vue.js",
-        "en": "Java/gae Vue.js development"
+        "it": "FatturaRapida - Project Manager",
+        "en": ""
+      },
+      {
+        "it": "corrispettivi - Project Manager",
+        "en": ""
+      },
+      {
+        "it": "pagheplus",
+        "en": ""
+      },
+      {
+        "it": "worklog",
+        "en": ""
+      },
+      {
+        "it": "gestione fatture - Project Manager",
+        "en": ""
+      },
+      {
+        "it": "aggiornamento infrastruttura gestione clienti e licenze software",
+        "en": ""
+      },
+      {
+        "it": "aggiornamento software Fattura Elettronica",
+        "en": ""
       },
       {
         "it": "Setup e amministrazione di un network Wordpress multisite",
@@ -74,15 +98,15 @@
     "time": "2015 - 2019",
     "achievements": [
       {
-        "it": "Channel manager a due vie per PMS desktop - java/swing/postgres",
+        "it": "Analisi e sviluppo channel manager a due vie per PMS desktop - java/swing/postgres",
         "en": "2-way channel manager for desktop hotel PMS - java/swing/postgres"
       },
       {
-        "it": "Integrazione con il sistema di fatturazione automatica GetYourBill - java/REST",
+        "it": "Analisi e sviluppo integrazione con il sistema di fatturazione automatica GetYourBill - java/REST",
         "en": "Integration with GetYourBill automated invoices management system - java/REST"
       },
       {
-        "it": "Integrazione con POS e gestione ristorante GenialFood - java/REST",
+        "it": "Analisi e sviluppo integrazione con POS e gestione ristorante GenialFood - java/REST",
         "en": "Integration with GenialFood restaurant management & POS app - java/REST"
       },
       {
@@ -94,8 +118,8 @@
         "en": "Technical assistance."
       },
       {
-        "it": "Analisi architettura cloud microservices",
-        "en": "Microservices cloud architecture analysis"
+        "it": "Analisi e sviluppo architettura cloud microservices",
+        "en": "Analysis and development of a microservices cloud architecture"
       }
     ],
     "technologies": [
@@ -137,12 +161,12 @@
         "en": "Ruby on Rails mentoring."
       },
       {
-        "it": "Sistema di fatturazione integrato - Ruby on rails/Postgres",
-        "en": "Automated invoicing for loyalty marketing system management - Ruby on rails/Postgres"
+        "it": "Sistema di fatturazione integrato - analisi e sviluppo - Ruby on rails/Postgres",
+        "en": "Analysis and development of automated invoicing for loyalty marketing management - Ruby on rails/Postgres"
       },
       {
-        "it": "Sviluppo sistema di loyalty marketing - Ruby on rails/Postgres/javascript/Google maps",
-        "en": "Loyalty marketing system development - Ruby on rails/Postgres/javascript/Google maps"
+        "it": "Sistema di loyalty marketing - analisi e sviluppo - Ruby on rails/Postgres/javascript/Google",
+        "en": "Analysis and development of a loyalty marketing system - Ruby on rails/Postgres/javascript/Google"
       },
       {
         "it": "Consulenza tecnica.",
