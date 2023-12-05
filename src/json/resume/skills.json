@@ -1,7 +1,7 @@
 [
   {
     "title":        "SOFT",
-    "topics":       ["communication", "project management", "team management", "coaching"]
+    "topics":       ["business analysis", "project management", "team management", "coaching", "communication"]
   },
   {
     "title":        "IT",
@@ -9,8 +9,13 @@
   },
   {
     "title":        "CLOUD",
-    "stars":        "2",
+    "stars":        "3",
     "topics":       ["gae", "google datastore", "AWS ec2", "AWS s3", "heroku", "digitalocean"]
+  },
+  {
+    "title":        "DEVOPS",
+    "stars":        "2",
+    "topics":       ["docker", "docker-compose", "linux"]
   },
   {
     "title":        "JAVA",

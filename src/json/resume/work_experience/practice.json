@@ -8,36 +8,36 @@
     "time": "2019 - now",
     "achievements": [
       {
-        "it": "SpeseSanitarie - Project Manager - ",
-        "en": ""
+        "it": "SpeseSanitarie - Project Manager - analisi e sviluppo applicativo web per gestire gli obblighi di comunicazione delle spese da parte dei professionisti sanitari.",
+        "en": "SpeseSanitarie - Project Manager - analysis and development of a web application that facilitates the legal duty of medical professionals to communicate the expenses to the national tax authority."
       },
       {
-        "it": "FatturaRapida - Project Manager",
-        "en": ""
+        "it": "FatturaRapida - Project Manager - analisi e sviluppo applicativo web per la gestione della fatturazione di contribuenti in regime dei minimi e in regime forfetario con comunicazione automatica in entrata ed in uscita col SdI dell'AdE.",
+        "en": "FatturaRapida - Project Manager - analysis and development of a web application that allows professionals that adhere to the minimum taxpayer regime (Law no. 244/2007) or to the flat-payer regime to manage in and outgoing invoices, with automated management of the communication with the tax authority."
       },
       {
-        "it": "corrispettivi - Project Manager",
-        "en": ""
+        "it": "Project Manager - analisi e sviluppo applicativo mobile con il framework flutter di google.",
+        "en": "Project Manager - analysis and development of a mobile app with google flutter framework."
       },
       {
-        "it": "pagheplus",
-        "en": ""
+        "it": "Worklog - Project Manager - analisi e sviluppo applicativo web per la gestione delle piccole spese di difficile contabilizzazione da parte dei professionisti. (not ancora pubblicato)",
+        "en": "Worklog - Project Manager -  analysis and development of a web application that allows professionals to track and manage micro-expenses. (not published yet)"
       },
       {
-        "it": "worklog",
-        "en": ""
+        "it": "Gestione Fatture - Project Manager - analisi e sviluppo applicativo web per la visualizzazione e gestione delle fatture per i clienti Mida4.",
+        "en": "Gestione Fatture - Project Manager - analysis and development of a web application to facilitate the management of invoices for Mida4 clients."
       },
       {
-        "it": "gestione fatture - Project Manager",
-        "en": ""
+        "it": "Pagheplus - analisi e sviluppo applicativo web per la gestione delle buste paga integrato con il software del commercialista e con gestione automatica degli obblighi di legge.",
+        "en": "Pagheplus - analysis and development of a web application to manage employees salaries, with seamless integration with the tax advisor's software and automated management of the legal duties."
       },
       {
-        "it": "aggiornamento infrastruttura gestione clienti e licenze software",
-        "en": ""
+        "it": "Fattura Elettronica aggiornamento server accreditato al SdI dell'AdE - java 8 -> java 17 / gae - analisi e sviluppo.",
+        "en": "Fattura Elettronica full code update of the tax authority licensed server that manages Mida4 clients invoices - java 8 -> java 17 - analysis and development."
       },
       {
-        "it": "aggiornamento software Fattura Elettronica",
-        "en": ""
+        "it": "aggiornamento infrastruttura gestione clienti e licenze software - java 7 -> java 17 / gae - analisi",
+        "en": "full update of the internal infrastructure to manage Mida4 clients and Mida4 software licences - java 7 -> java 17 - analysis"
       },
       {
         "it": "Setup e amministrazione di un network Wordpress multisite",
@@ -64,13 +64,15 @@
       "google cloud",
       "gae",
       "google datastore",
+      "google cloud storage",
       "aws ec2",
       "jakarta ee",
+      "glassfish",
       "flutter",
       "XML",
       "SOAP",
       "REST",
-      "wordpress",
+      "wordpress muiltisite",
       "php",
       "git",
       "linux",
@@ -123,6 +125,7 @@
       }
     ],
     "technologies": [
+      "docker",
       "java",
       "swing",
       "postgresql",
@@ -136,7 +139,6 @@
       "windows",
       "osx",
       "vmware",
-      "docker",
       "nodejs"
     ],
     "links": [

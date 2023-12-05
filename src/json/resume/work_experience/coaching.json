@@ -1,5 +1,11 @@
 [
   {
+    "title":        {"it": "Mida4 - Vue.js mentoring", "en":"Mida4 - Vue.js mentoring"},
+    "workplace":    "Uelcom s.r.l. - Trieste",
+    "time":         "02/2021 - 09/2021",
+    "description":  {"it": "Mentoring Vue.js", "en":"Vue.js mentoring."}
+  },
+  {
     "title":        {"it": "Uelcom - tutoraggio Android", "en":"Uelcom - Android mentoring"},
     "workplace":    "Uelcom s.r.l. - Trieste",
     "time":         "02/2017 - 04/2017",
