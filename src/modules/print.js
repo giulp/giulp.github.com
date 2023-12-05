@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { starsString } from '@/modules/print-utils'
 import { images, fonts, styles } from '@/modules/print-layout'
 
@@ -256,36 +257,56 @@ const skills = ({config, resume, lang}) => (
   }]
   .concat(resume.skills.map(_layoutSkill))
 )
-
-const _layoutLang = (lng, lang) => ({ 
-  stack: [
-    {text: lng.title[ lang ], bold: true, style: 'langName', margin: [10,0,0,0]},
-    {text: starsString( lng.stars ), style:{alignment: 'center'}}
-  ], 
-  border: [false,false,false,false]
+const _layoutLangs = (spoken, lang) => ({
+  table: {
+    widths: ['*', 'auto', '1'],
+    body: [
+      FAUXROW,
+      [
+        {text: spoken.title[ lang ], border: ALLFALSE, style: 'skillName', bold: true},
+        { text: starsString(spoken.stars), border: ALLFALSE, style: 'skillStars'}, 
+        LASTFAUX
+      ]
+    ], margin: [0, 0, 0, 0]
+  }, margin: [0, 0, 0, 0]
 })
 
-const langs = ({config, resume, lang}) => ([
-  { 
+const langs = ({config, resume, lang}) => (
+  [{ 
     text: [
-      // ICO_GLOBE,
-      config.labels.section_langs[ lang ]
+      // ICO_KEY, 
+      ` ${config.labels.section_langs[ lang ]}`
     ],
     bold:true
-  },
-  ' ',
-  {
-    table: {
-      widths: ['*','*','*','*','*','*','1'],
-      body: 
-      [
-        resume.langs.map(l => _layoutLang(l, lang))
-        .concat([LASTFAUX])
-      ]
-    }, margin: [0, 0, 0, 0]
-  },
-  ' '
-])
+  }]
+  .concat(resume.langs.map(l => _layoutLangs(l, lang)))
+)
+
+// const _layoutLang = (spoken, lang) => {
+//   return {
+//     table: {
+//       widths: ['*', '*'],
+//       body: [
+//         FAUXROW,
+//         [
+//           {text: spoken.title[ lang ], border: ALLFALSE, style: 'skillName', bold: true},
+//           { text: starsString(spoken.stars), border: ALLFALSE, style: 'skillStars'}, 
+//           // LASTFAUX
+//         ]
+//       ], margin: [0, 0, 0, 0]
+//     }, margin: [0, 0, 0, 0]
+//   }
+// }
+
+// const langs = ({config, resume, lang}) => (
+//   [{ 
+//     text: [
+//       // ICO_KEY, 
+//       ` ${config.labels.section_skill[ lang ]}`
+//     ],
+//     bold:true
+//   }]
+//   .concat(resume.langs.map(_layoutLang)))
 
 // const _extra = (resume, lang) => {
 //   return [{ text: [ICO_HOME, ' Extra'] }].concat(_data[ lang ].resume.extracurriculars.map(function(el){
@@ -329,8 +350,8 @@ const docDefinition = cv => ({
     dev(cv),
     coaching(cv),
     edu(cv),
-    [{ stack: langs(cv),     border: [false,false,false,false], margin: [0, 20, 0, 6] }],
     [{ stack: skills(cv),    border: [false,true,false,false], margin: [0, 3, 0, 6], pageBreak: 'before' }],
+    [{ stack: langs(cv),     border: [false,false,false,false], margin:  [0, 3, 0, 6] }],
   ],
   images: images
 })
