@@ -3,7 +3,6 @@
   <AppMenu />
   <WorkSection />
   <EducationSection />
-  <ProjectsSection />
   <SkillsSection/> 
   <LangsSection />
 </template>
@@ -14,7 +13,6 @@ import PersonalHeader from './components/PersonalHeader'
 import AppMenu from './components/AppMenu'
 import WorkSection from './components/WorkSection'
 import EducationSection from './components/EducationSection'
-import ProjectsSection from './components/ProjectsSection'
 import SkillsSection from './components/SkillsSection'
 import LangsSection from './components/LangsSection.vue'
 
@@ -25,7 +23,6 @@ export default {
     AppMenu,
     WorkSection,
     EducationSection,
-    ProjectsSection,
     SkillsSection,
     LangsSection
   }
