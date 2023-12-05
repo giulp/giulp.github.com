@@ -5,6 +5,7 @@
   <EducationSection />
   <ProjectsSection />
   <SkillsSection/> 
+  <LangsSection />
 </template>
 
 <script>
@@ -15,6 +16,7 @@ import WorkSection from './components/WorkSection'
 import EducationSection from './components/EducationSection'
 import ProjectsSection from './components/ProjectsSection'
 import SkillsSection from './components/SkillsSection'
+import LangsSection from './components/LangsSection.vue'
 
 export default {
   name: 'App',
@@ -24,7 +26,8 @@ export default {
     WorkSection,
     EducationSection,
     ProjectsSection,
-    SkillsSection
+    SkillsSection,
+    LangsSection
   }
 }
 </script>
