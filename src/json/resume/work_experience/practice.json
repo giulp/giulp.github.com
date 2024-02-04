@@ -36,28 +36,28 @@
         "en": "Fattura Elettronica full code update of the tax authority licensed server that manages Mida4 clients invoices - java 8 -> java 17 - analysis and development."
       },
       {
-        "it": "aggiornamento infrastruttura gestione clienti e licenze software - java 7 -> java 17 / gae - analisi",
-        "en": "full update of the internal infrastructure to manage Mida4 clients and Mida4 software licences - java 7 -> java 17 - analysis"
+        "it": "aggiornamento infrastruttura gestione clienti e licenze software - java 7 -> java 17 / gae - analisi.",
+        "en": "full update of the internal infrastructure to manage Mida4 clients and Mida4 software licences - java 7 -> java 17 - analysis."
       },
       {
-        "it": "Setup e amministrazione di un network Wordpress multisite",
-        "en": "Multisite Wordpress network setup and management"
+        "it": "Setup e amministrazione di un network Wordpress multisite.",
+        "en": "Multisite Wordpress network setup and management."
       },
       {
-        "it": "Integrazione eshop Wordpress/Woocommerce - ticketing system OTRS - php",
-        "en": "Wordpress/Woocommerce eshop - OTRS ticketing system integration - php"
+        "it": "Integrazione eshop Wordpress/Woocommerce - ticketing system OTRS - php.",
+        "en": "Wordpress/Woocommerce eshop - OTRS ticketing system integration - php."
       },
       {
-        "it": "Assistenza amministrazione infrastruttura server ibrida cloud/onsite",
-        "en": "Hybrid cloud/onsite server infrastructure administration"
+        "it": "Assistenza amministrazione infrastruttura server ibrida cloud/onsite.",
+        "en": "Hybrid cloud/onsite server infrastructure administration."
       },
       {
-        "it": "Analisi scalabilità Windows terminal server su aws",
-        "en": "Scalability analisys for Windows terminal server on aws"
+        "it": "Analisi scalabilità Windows terminal server su aws.",
+        "en": "Scalability analysys for Windows terminal server on aws."
       },
       {
-        "it": "Analisi comparativa pricing aws",
-        "en": "Comparative analisys of aws pricing"
+        "it": "Analisi comparativa pricing aws.",
+        "en": "Comparative analysys of aws pricing."
       }
     ],
     "technologies": [
