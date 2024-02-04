@@ -100,28 +100,28 @@
     "time": "2015 - 2019",
     "achievements": [
       {
-        "it": "Analisi e sviluppo channel manager a due vie per PMS desktop - java/swing/postgres",
-        "en": "2-way channel manager for desktop hotel PMS - java/swing/postgres"
+        "it": "Analisi e sviluppo channel manager a due vie per PMS desktop - java/swing/postgres.",
+        "en": "2-way channel manager for desktop hotel PMS - java/swing/postgres."
       },
       {
-        "it": "Analisi e sviluppo integrazione con il sistema di fatturazione automatica GetYourBill - java/REST",
-        "en": "Integration with GetYourBill automated invoices management system - java/REST"
+        "it": "Analisi e sviluppo integrazione con il sistema di fatturazione automatica GetYourBill - java/REST.",
+        "en": "Integration with GetYourBill automated invoices management system - java/REST."
       },
       {
-        "it": "Analisi e sviluppo integrazione con POS e gestione ristorante GenialFood - java/REST",
-        "en": "Integration with GenialFood restaurant management & POS app - java/REST"
+        "it": "Analisi e sviluppo integrazione con POS e gestione ristorante GenialFood - java/REST.",
+        "en": "Integration with GenialFood restaurant management & POS app - java/REST."
       },
       {
-        "it": "Amministrazione server - linux/aws",
-        "en": "Server administration - linux/aws"
+        "it": "Amministrazione server - linux/aws.",
+        "en": "Server administration - linux/aws."
       },
       {
         "it": "Assistenza tecnica.",
         "en": "Technical assistance."
       },
       {
-        "it": "Analisi e sviluppo architettura cloud microservices",
-        "en": "Analysis and development of a microservices cloud architecture"
+        "it": "Analisi e sviluppo architettura cloud microservices.",
+        "en": "Analysis and development of a microservices cloud architecture."
       }
     ],
     "technologies": [
@@ -329,7 +329,7 @@
       },
       {
         "it": "EntityPBX (FreePBX fork): Ottimizzazione database MYSQL - Sviluppo PHP visualizzazione statistiche.",
-        "en": "EntityPBX (FreePBX fork): MYSQL db optimization - PHP development of stats visualization"
+        "en": "EntityPBX (FreePBX fork): MYSQL db optimization - PHP development of stats visualization."
       },
       {
         "it": "Professional Pets - analisi e sviluppo web.",
