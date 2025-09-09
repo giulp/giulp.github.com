@@ -41,7 +41,7 @@ const header = ({config, lang}) => _headFootLayout([
     { image: 'giulpAvatar', width: 60, margin:[5,5], border: ALLFALSE },
     _headFootStack([
       { text: config.labels.pdf_title[ lang ], style: 'headerTitle', border: ALLFALSE },
-      { text: 'giuliopicasso@gmail.com            skype: giuliopicasso', style: {fontSize: 8, font: 'exo', alignment: 'center'}, border: ALLFALSE}
+      { text: 'giuliopicasso@gmail.com            tel: +39 346 2422558', style: {fontSize: 8, font: 'exo', alignment: 'center'}, border: ALLFALSE}
     ], IS_IMAGE ),
     _headFootStack([
       { image: 'githubio', width: 60, margin:NOMARGIN },

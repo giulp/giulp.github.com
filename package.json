@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "serve": "export NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service serve",
+    "build": "export NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "publish-gh": "npm run build && git subtree push --prefix dist origin gh-pages"
+    "publish-gh": "export NODE_OPTIONS=--openssl-legacy-provider && npm run build && git subtree push --prefix dist origin gh-pages"
   },
   "dependencies": {
     "core-js": "^3.6.5",

@@ -1,6 +1,88 @@
 [
   {
     "title": {
+      "it": "Analista - PM - Sviluppatore Full Stack",
+      "en": "Analyst - PM - Full Stack Dev"
+    },
+    "workplace": "CB Funi s.r.l. Trieste",
+    "time": "2025",
+    "achievements": [
+      {
+        "it": "CantierOne - gestione preventivi, gestione sicurezza, monitoraggio cantiere e gestione presenze per lavori edili in quota",
+        "en": "CantierOne - Construction project support: quotations, safety, site monitoring, workforce management"
+      }
+    ],
+    "technologies": [
+      "spring boot",
+      "angular",
+      "postgresql",
+      "jhipster",
+      "docker",
+      "git",
+      "linux"
+    ],
+    "links": [],
+    "tags": ["edilizia", "full-stack"]
+  },
+  {
+    "title": {
+      "it": "Consulente IT",
+      "en": "IT consultant"
+    },
+    "workplace": "Studio Legale Leuzzi Trieste",
+    "time": "2025",
+    "achievements": [
+      {
+        "it": "Consulenza tecnica su controversie contrattuali",
+        "en": "Technical consulting on contractual disputes"
+      }
+    ],
+    "technologies": [],
+    "links": [],
+    "tags": ["consulenza", "consulting"]
+  },
+  {
+    "title": {
+      "it": "Analista sw - Project Manager - Coordinamento Tecnico - Full Stack Dev",
+      "en": "Software analyst - Project Manager - IT Manager - Full Stack Dev"
+    },
+    "workplace": "Infnite Loop s.r.l. Udine",
+    "time": "2024 - 2025",
+    "achievements": [
+      {
+        "it": "Latterie Soligo - MaintManager - gestione e monitoraggio manutenzione fabbrica",
+        "en": "Latterie Soligo - MaintManager - Factory Maintenance Management and Monitoring"
+      },
+      {
+        "it": "AdSportify - gestione offerta pubblicitaria società sposrtive",
+        "en": "AdSportify - Advertising Offer Management for Sports Organizations"
+      },
+      {
+        "it": "ISOFlow - Gestione e condivisione delle informazioni sui processi di qualità, in conformità alla normativa vigente, per semplificare le attività di audit",
+        "en": "ISOFlow - Management and sharing of quality process information, in compliance with current regulations, to streamline audit activities"
+      },
+      {
+        "it": "Lima Corporate - Sales Pipeline - gestione Customer Onboarding Pipeline",
+        "en": "Lima Corporate - Sales Pipeline - Customer Onboarding Pipeline Management"
+      }
+    ],
+    "technologies": [
+      "spring boot",
+      "angular",
+      "postgresql",
+      "Microsoft SQL Server",
+      "jhipster",
+      "docker",
+      "kubernetes",
+      "redmine",
+      "git",
+      "linux"
+    ],
+    "links": [],
+    "tags": ["PM", "spring boot", "jhipster"]
+  },
+  {
+    "title": {
       "it": "Analista multiruolo: web, mobile, cloud | Sysadmin",
       "en": "Multirole analyst and developer - web, mobile, cloud | Sysadmin"
     },
@@ -89,7 +171,7 @@
         "url": "https://"
       }
     ],
-    "tags": ["channel manager", "pms", "hotel", "integrazione", "REST"]
+    "tags": ["legal duties", "sw fiscale", "multiruolo", "integrazione", "REST"]
   },
   {
     "title": {
